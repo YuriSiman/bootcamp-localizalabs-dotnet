@@ -15,7 +15,7 @@ Criando uma Aplicação de Transferências Bancárias com .NET
 Desafios Aritméticos em C#
 * [Média](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/#média)  
 * [Crescimento Populacional](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/#crescimento-populacional)  
-* [Bazinga!](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/#bazinga!)  
+* [Bazinga!](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/#bazinga)  
 
 ---
 
