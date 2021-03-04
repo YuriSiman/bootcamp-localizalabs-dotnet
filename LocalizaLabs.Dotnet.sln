@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bazinga!", "src\3 - Desafio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tempo de um Evento", "src\3 - Desafios Aritméticos em CSharp\Tempo de um Evento\Tempo de um Evento.csproj", "{680303C5-36BA-48BF-BAB5-819F7D701AB0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comunicação em Piralândia", "src\3 - Desafios Aritméticos em CSharp\Comunicação em Piralândia\Comunicação em Piralândia.csproj", "{CD752C47-3913-4D57-86D0-8290AC028A75}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -133,6 +135,18 @@ Global
 		{680303C5-36BA-48BF-BAB5-819F7D701AB0}.Release|x64.Build.0 = Release|Any CPU
 		{680303C5-36BA-48BF-BAB5-819F7D701AB0}.Release|x86.ActiveCfg = Release|Any CPU
 		{680303C5-36BA-48BF-BAB5-819F7D701AB0}.Release|x86.Build.0 = Release|Any CPU
+		{CD752C47-3913-4D57-86D0-8290AC028A75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD752C47-3913-4D57-86D0-8290AC028A75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD752C47-3913-4D57-86D0-8290AC028A75}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{CD752C47-3913-4D57-86D0-8290AC028A75}.Debug|x64.Build.0 = Debug|Any CPU
+		{CD752C47-3913-4D57-86D0-8290AC028A75}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CD752C47-3913-4D57-86D0-8290AC028A75}.Debug|x86.Build.0 = Debug|Any CPU
+		{CD752C47-3913-4D57-86D0-8290AC028A75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD752C47-3913-4D57-86D0-8290AC028A75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD752C47-3913-4D57-86D0-8290AC028A75}.Release|x64.ActiveCfg = Release|Any CPU
+		{CD752C47-3913-4D57-86D0-8290AC028A75}.Release|x64.Build.0 = Release|Any CPU
+		{CD752C47-3913-4D57-86D0-8290AC028A75}.Release|x86.ActiveCfg = Release|Any CPU
+		{CD752C47-3913-4D57-86D0-8290AC028A75}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -149,6 +163,7 @@ Global
 		{7A2E8F42-F218-4A10-9E74-E35DADE14B22} = {CECF251D-10C5-4D61-A621-ABDC509A1556}
 		{D8A7E9C3-5658-4899-A1F8-783E946F8A8D} = {CECF251D-10C5-4D61-A621-ABDC509A1556}
 		{680303C5-36BA-48BF-BAB5-819F7D701AB0} = {CECF251D-10C5-4D61-A621-ABDC509A1556}
+		{CD752C47-3913-4D57-86D0-8290AC028A75} = {CECF251D-10C5-4D61-A621-ABDC509A1556}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {96F876AF-838F-477B-9C50-66967EB99D28}
