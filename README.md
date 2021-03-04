@@ -262,14 +262,10 @@ Obs: Considere que o evento do caso de teste para o problema tem duração míni
 
 Exemplo de Entrada | Exemplo de Saída
 ------------ | -------------
-Dia 5
-08 : 12 : 23
-Dia 9
-06 : 13 : 23 | 3 dia(s)
-22 hora(s)
-1 minuto(s)
-0 segundo(s)
-
+Dia 5 | 3 dia(s)
+08 : 12 : 23 | 22 hora(s)
+Dia 9 | 1 minuto(s)
+06 : 13 : 23 | 0 segundo(s)
 
 * [Visualizar Código](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/blob/master/src/3%20-%20Desafios%20Aritm%C3%A9ticos%20em%20CSharp/Tempo%20de%20um%20Evento/Program.cs)  
 * [Voltar ao Início](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet#bootcamp-localizalabs-net-developer)  
