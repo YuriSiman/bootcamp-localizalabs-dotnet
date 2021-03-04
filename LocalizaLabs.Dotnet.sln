@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consumo Médio do Automóve
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD", "src\1 - Solução de Problemas em CSharp\DDD\DDD.csproj", "{ABBC4AF8-49CE-429D-A7B7-C6D3CD6EB59A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aumento de Salário", "src\1 - Solução de Problemas em CSharp\Aumento de Salário\Aumento de Salário.csproj", "{628F5F51-2283-4245-889A-3CB6B375ED5C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +51,18 @@ Global
 		{ABBC4AF8-49CE-429D-A7B7-C6D3CD6EB59A}.Release|x64.Build.0 = Release|Any CPU
 		{ABBC4AF8-49CE-429D-A7B7-C6D3CD6EB59A}.Release|x86.ActiveCfg = Release|Any CPU
 		{ABBC4AF8-49CE-429D-A7B7-C6D3CD6EB59A}.Release|x86.Build.0 = Release|Any CPU
+		{628F5F51-2283-4245-889A-3CB6B375ED5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{628F5F51-2283-4245-889A-3CB6B375ED5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{628F5F51-2283-4245-889A-3CB6B375ED5C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{628F5F51-2283-4245-889A-3CB6B375ED5C}.Debug|x64.Build.0 = Debug|Any CPU
+		{628F5F51-2283-4245-889A-3CB6B375ED5C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{628F5F51-2283-4245-889A-3CB6B375ED5C}.Debug|x86.Build.0 = Debug|Any CPU
+		{628F5F51-2283-4245-889A-3CB6B375ED5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{628F5F51-2283-4245-889A-3CB6B375ED5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{628F5F51-2283-4245-889A-3CB6B375ED5C}.Release|x64.ActiveCfg = Release|Any CPU
+		{628F5F51-2283-4245-889A-3CB6B375ED5C}.Release|x64.Build.0 = Release|Any CPU
+		{628F5F51-2283-4245-889A-3CB6B375ED5C}.Release|x86.ActiveCfg = Release|Any CPU
+		{628F5F51-2283-4245-889A-3CB6B375ED5C}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -59,6 +73,7 @@ Global
 		{CECF251D-10C5-4D61-A621-ABDC509A1556} = {5250B6B5-B041-437F-9EB1-9F9C953C9A3D}
 		{F69CE541-72AB-4936-A58F-6E2EB7E38380} = {D1A6371C-8CD0-43F8-835E-7C650D68E297}
 		{ABBC4AF8-49CE-429D-A7B7-C6D3CD6EB59A} = {D1A6371C-8CD0-43F8-835E-7C650D68E297}
+		{628F5F51-2283-4245-889A-3CB6B375ED5C} = {D1A6371C-8CD0-43F8-835E-7C650D68E297}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {96F876AF-838F-477B-9C50-66967EB99D28}
