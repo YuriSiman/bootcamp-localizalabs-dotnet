@@ -1,8 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5250B6B5-B041-437F-9EB1-9F9C953C9A3D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Solução de Problemas em CSharp", "1 - Solução de Problemas em CSharp", "{D1A6371C-8CD0-43F8-835E-7C650D68E297}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Criando uma Aplicação de Transferências Bancárias com .NET", "2 - Criando uma Aplicação de Transferências Bancárias com .NET", "{E034DF74-30A8-4F1A-AB1F-5FB79754E773}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Desafios Aritméticos em CSharp", "3 - Desafios Aritméticos em CSharp", "{CECF251D-10C5-4D61-A621-ABDC509A1556}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consumo Médio do Automóvel", "src\1 - Solução de Problemas em CSharp\Consumo Médio do Automóvel\Consumo Médio do Automóvel.csproj", "{F69CE541-72AB-4936-A58F-6E2EB7E38380}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,7 +22,30 @@ Global
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
 	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F69CE541-72AB-4936-A58F-6E2EB7E38380}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F69CE541-72AB-4936-A58F-6E2EB7E38380}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F69CE541-72AB-4936-A58F-6E2EB7E38380}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F69CE541-72AB-4936-A58F-6E2EB7E38380}.Debug|x64.Build.0 = Debug|Any CPU
+		{F69CE541-72AB-4936-A58F-6E2EB7E38380}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F69CE541-72AB-4936-A58F-6E2EB7E38380}.Debug|x86.Build.0 = Debug|Any CPU
+		{F69CE541-72AB-4936-A58F-6E2EB7E38380}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F69CE541-72AB-4936-A58F-6E2EB7E38380}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F69CE541-72AB-4936-A58F-6E2EB7E38380}.Release|x64.ActiveCfg = Release|Any CPU
+		{F69CE541-72AB-4936-A58F-6E2EB7E38380}.Release|x64.Build.0 = Release|Any CPU
+		{F69CE541-72AB-4936-A58F-6E2EB7E38380}.Release|x86.ActiveCfg = Release|Any CPU
+		{F69CE541-72AB-4936-A58F-6E2EB7E38380}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D1A6371C-8CD0-43F8-835E-7C650D68E297} = {5250B6B5-B041-437F-9EB1-9F9C953C9A3D}
+		{E034DF74-30A8-4F1A-AB1F-5FB79754E773} = {5250B6B5-B041-437F-9EB1-9F9C953C9A3D}
+		{CECF251D-10C5-4D61-A621-ABDC509A1556} = {5250B6B5-B041-437F-9EB1-9F9C953C9A3D}
+		{F69CE541-72AB-4936-A58F-6E2EB7E38380} = {D1A6371C-8CD0-43F8-835E-7C650D68E297}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {96F876AF-838F-477B-9C50-66967EB99D28}
 	EndGlobalSection
 EndGlobal
