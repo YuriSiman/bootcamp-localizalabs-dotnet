@@ -126,6 +126,8 @@ Exemplo de Entrada | Exemplo de Saída
 
 ---
 
+### Criando uma Aplicação de Transferências Bancárias com .NET
+
 ## Transferência Bancária
 
 **Desafio**  
@@ -137,6 +139,8 @@ Aprenda como criar um algoritmo simples de transferência bancária para exercer
 * [Voltar ao Início](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet#bootcamp-localizalabs-net-developer)  
 
 ---
+
+### Desafios Aritméticos em C#
 
 ## Média
 
