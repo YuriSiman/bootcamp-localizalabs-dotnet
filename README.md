@@ -19,6 +19,9 @@ Desafios Aritméticos em C#
 * [Tempo de um Evento](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/#tempo-de-um-evento)  
 * [Comunicação em Piralândia](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/#comunicação-em-piralândia)  
 
+Criando um APP simples de cadastro de séries em .NET
+* [Cadastro de Séries](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/#cadastro-de-séries)  
+
 ---
 
 ### :dart: Objetivo
@@ -294,6 +297,18 @@ Exemplo de Entrada | Exemplo de Saída
 9876543210 | 0123456789
 
 * [Visualizar Código](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/blob/master/src/3%20-%20Desafios%20Aritm%C3%A9ticos%20em%20CSharp/Comunica%C3%A7%C3%A3o%20em%20Piral%C3%A2ndia/Program.cs)  
+* [Voltar ao Início](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet#bootcamp-localizalabs-net-developer)  
+
+---
+
+### Criando um APP simples de cadastro de séries em .NET
+
+## Cadastro de Séries
+
+**Desafio**  
+Aprenda como criar um algoritmo simples de cadastro de séries para praticar seus conhecimentos de orientação a objetos, o principal paradigma de programação utilizada no mercado. Nesse projeto você vai aprender: Como pensar orientado a objetos, como modelar o seu domínio, como utilizar recursos de coleção.  
+
+* [Visualizar Código](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/tree/master/src/4%20-%20Criando%20um%20APP%20simples%20de%20cadastro%20de%20s%C3%A9ries%20em%20.NET/Cadastro%20de%20S%C3%A9ries)  
 * [Voltar ao Início](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet#bootcamp-localizalabs-net-developer)  
 
 ---
