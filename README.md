@@ -320,7 +320,7 @@ Aprenda como criar um algoritmo simples de cadastro de séries para praticar seu
 
 ## Docker
 
-Implementação do último exercício proposto na etapa Introdução à orquestração de conteiners com Docker do Bootcamp LocalizaLabs .NET Developer.  
+Implementação do último exercício proposto na etapa **Introdução à orquestração de conteiners com Docker** do Bootcamp LocalizaLabs .NET Developer.  
 
 Link para o repositório do exercício: [Docker](https://github.com/YuriSiman/bootcamp-localizalabs-docker)  
 
