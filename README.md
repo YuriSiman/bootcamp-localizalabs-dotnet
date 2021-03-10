@@ -22,6 +22,9 @@ Desafios Aritméticos em C#
 Criando um APP simples de cadastro de séries em .NET
 * [Cadastro de Séries](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/#cadastro-de-séries)  
 
+Introdução à orquestração de conteiners com Docker
+* [Docker](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/#docker)  
+
 ---
 
 ### :dart: Objetivo
@@ -309,6 +312,18 @@ Exemplo de Entrada | Exemplo de Saída
 Aprenda como criar um algoritmo simples de cadastro de séries para praticar seus conhecimentos de orientação a objetos, o principal paradigma de programação utilizada no mercado. Nesse projeto você vai aprender: Como pensar orientado a objetos, como modelar o seu domínio, como utilizar recursos de coleção.  
 
 * [Visualizar Código](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/tree/master/src/4%20-%20Criando%20um%20APP%20simples%20de%20cadastro%20de%20s%C3%A9ries%20em%20.NET/Cadastro%20de%20S%C3%A9ries)  
+* [Voltar ao Início](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet#bootcamp-localizalabs-net-developer)  
+
+---
+
+### Introdução à orquestração de conteiners com Docker
+
+## Docker
+
+Implementação do último exercício proposto na etapa Introdução à orquestração de conteiners com Docker do Bootcamp LocalizaLabs .NET Developer.  
+
+Link para o repositório do exercício: [Docker](https://github.com/YuriSiman/bootcamp-localizalabs-docker)  
+
 * [Voltar ao Início](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet#bootcamp-localizalabs-net-developer)  
 
 ---
