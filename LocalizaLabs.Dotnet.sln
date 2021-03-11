@@ -33,10 +33,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Criando um APP simples 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cadastro de Séries", "src\4 - Criando um APP simples de cadastro de séries em .NET\Cadastro de Séries\Cadastro de Séries.csproj", "{8FE67387-D645-43EF-B9C3-8FAAEADB4139}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Desenvolvimento de Aplicações com .NET", "5 - Desenvolvimento de Aplicações com .NET", "{EC438A49-4229-497C-8ADA-96BCA6FDFC58}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursoMVC.App", "src\5 - Desenvolvimento de Aplicações com .NET\CursoMVC.App\CursoMVC.App.csproj", "{0A432383-BC86-462E-A2BC-E22FB0D20E8E}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -167,18 +163,6 @@ Global
 		{8FE67387-D645-43EF-B9C3-8FAAEADB4139}.Release|x64.Build.0 = Release|Any CPU
 		{8FE67387-D645-43EF-B9C3-8FAAEADB4139}.Release|x86.ActiveCfg = Release|Any CPU
 		{8FE67387-D645-43EF-B9C3-8FAAEADB4139}.Release|x86.Build.0 = Release|Any CPU
-		{0A432383-BC86-462E-A2BC-E22FB0D20E8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0A432383-BC86-462E-A2BC-E22FB0D20E8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0A432383-BC86-462E-A2BC-E22FB0D20E8E}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{0A432383-BC86-462E-A2BC-E22FB0D20E8E}.Debug|x64.Build.0 = Debug|Any CPU
-		{0A432383-BC86-462E-A2BC-E22FB0D20E8E}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{0A432383-BC86-462E-A2BC-E22FB0D20E8E}.Debug|x86.Build.0 = Debug|Any CPU
-		{0A432383-BC86-462E-A2BC-E22FB0D20E8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0A432383-BC86-462E-A2BC-E22FB0D20E8E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0A432383-BC86-462E-A2BC-E22FB0D20E8E}.Release|x64.ActiveCfg = Release|Any CPU
-		{0A432383-BC86-462E-A2BC-E22FB0D20E8E}.Release|x64.Build.0 = Release|Any CPU
-		{0A432383-BC86-462E-A2BC-E22FB0D20E8E}.Release|x86.ActiveCfg = Release|Any CPU
-		{0A432383-BC86-462E-A2BC-E22FB0D20E8E}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -198,8 +182,6 @@ Global
 		{CD752C47-3913-4D57-86D0-8290AC028A75} = {CECF251D-10C5-4D61-A621-ABDC509A1556}
 		{8B71A4AB-55C0-48CB-93EB-DA076FAF44F3} = {5250B6B5-B041-437F-9EB1-9F9C953C9A3D}
 		{8FE67387-D645-43EF-B9C3-8FAAEADB4139} = {8B71A4AB-55C0-48CB-93EB-DA076FAF44F3}
-		{EC438A49-4229-497C-8ADA-96BCA6FDFC58} = {5250B6B5-B041-437F-9EB1-9F9C953C9A3D}
-		{0A432383-BC86-462E-A2BC-E22FB0D20E8E} = {EC438A49-4229-497C-8ADA-96BCA6FDFC58}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {96F876AF-838F-477B-9C50-66967EB99D28}
