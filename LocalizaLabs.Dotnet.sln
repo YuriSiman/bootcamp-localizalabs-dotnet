@@ -11,27 +11,31 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Criando uma Aplicação
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Desafios Aritméticos em CSharp", "3 - Desafios Aritméticos em CSharp", "{CECF251D-10C5-4D61-A621-ABDC509A1556}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consumo Médio do Automóvel", "src\1 - Solução de Problemas em CSharp\Consumo Médio do Automóvel\Consumo Médio do Automóvel.csproj", "{F69CE541-72AB-4936-A58F-6E2EB7E38380}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Consumo Médio do Automóvel", "src\1 - Solução de Problemas em CSharp\Consumo Médio do Automóvel\Consumo Médio do Automóvel.csproj", "{F69CE541-72AB-4936-A58F-6E2EB7E38380}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD", "src\1 - Solução de Problemas em CSharp\DDD\DDD.csproj", "{ABBC4AF8-49CE-429D-A7B7-C6D3CD6EB59A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDD", "src\1 - Solução de Problemas em CSharp\DDD\DDD.csproj", "{ABBC4AF8-49CE-429D-A7B7-C6D3CD6EB59A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aumento de Salário", "src\1 - Solução de Problemas em CSharp\Aumento de Salário\Aumento de Salário.csproj", "{628F5F51-2283-4245-889A-3CB6B375ED5C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aumento de Salário", "src\1 - Solução de Problemas em CSharp\Aumento de Salário\Aumento de Salário.csproj", "{628F5F51-2283-4245-889A-3CB6B375ED5C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transferências Bancárias", "src\2 - Criando uma Aplicação de Transferências Bancárias com .NET\Transferências Bancárias\Transferências Bancárias.csproj", "{814E913F-DF37-4803-91DF-10E56CBF9796}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Transferências Bancárias", "src\2 - Criando uma Aplicação de Transferências Bancárias com .NET\Transferências Bancárias\Transferências Bancárias.csproj", "{814E913F-DF37-4803-91DF-10E56CBF9796}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Média", "src\3 - Desafios Aritméticos em CSharp\Média\Média.csproj", "{12DC0BC9-5A7E-44B7-AFC5-FE27D2A45212}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Média", "src\3 - Desafios Aritméticos em CSharp\Média\Média.csproj", "{12DC0BC9-5A7E-44B7-AFC5-FE27D2A45212}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crescimento Populacional", "src\3 - Desafios Aritméticos em CSharp\Crescimento Populacional\Crescimento Populacional.csproj", "{7A2E8F42-F218-4A10-9E74-E35DADE14B22}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Crescimento Populacional", "src\3 - Desafios Aritméticos em CSharp\Crescimento Populacional\Crescimento Populacional.csproj", "{7A2E8F42-F218-4A10-9E74-E35DADE14B22}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bazinga!", "src\3 - Desafios Aritméticos em CSharp\Bazinga!\Bazinga!.csproj", "{D8A7E9C3-5658-4899-A1F8-783E946F8A8D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bazinga!", "src\3 - Desafios Aritméticos em CSharp\Bazinga!\Bazinga!.csproj", "{D8A7E9C3-5658-4899-A1F8-783E946F8A8D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tempo de um Evento", "src\3 - Desafios Aritméticos em CSharp\Tempo de um Evento\Tempo de um Evento.csproj", "{680303C5-36BA-48BF-BAB5-819F7D701AB0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tempo de um Evento", "src\3 - Desafios Aritméticos em CSharp\Tempo de um Evento\Tempo de um Evento.csproj", "{680303C5-36BA-48BF-BAB5-819F7D701AB0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comunicação em Piralândia", "src\3 - Desafios Aritméticos em CSharp\Comunicação em Piralândia\Comunicação em Piralândia.csproj", "{CD752C47-3913-4D57-86D0-8290AC028A75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Comunicação em Piralândia", "src\3 - Desafios Aritméticos em CSharp\Comunicação em Piralândia\Comunicação em Piralândia.csproj", "{CD752C47-3913-4D57-86D0-8290AC028A75}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Criando um APP simples de cadastro de séries em .NET", "4 - Criando um APP simples de cadastro de séries em .NET", "{8B71A4AB-55C0-48CB-93EB-DA076FAF44F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cadastro de Séries", "src\4 - Criando um APP simples de cadastro de séries em .NET\Cadastro de Séries\Cadastro de Séries.csproj", "{8FE67387-D645-43EF-B9C3-8FAAEADB4139}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cadastro de Séries", "src\4 - Criando um APP simples de cadastro de séries em .NET\Cadastro de Séries\Cadastro de Séries.csproj", "{8FE67387-D645-43EF-B9C3-8FAAEADB4139}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Desenvolvimento de Aplicações com .NET", "5 - Desenvolvimento de Aplicações com .NET", "{BDA0B382-AEF8-45A4-8724-195F5F9CF3D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursoDotnet.App", "src\5 - Desenvolvimento de Aplicações com .NET\CursoDotnet.App\CursoDotnet.App.csproj", "{3372A195-7F93-42F1-B30D-F9B63BC0ADDD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -163,6 +167,18 @@ Global
 		{8FE67387-D645-43EF-B9C3-8FAAEADB4139}.Release|x64.Build.0 = Release|Any CPU
 		{8FE67387-D645-43EF-B9C3-8FAAEADB4139}.Release|x86.ActiveCfg = Release|Any CPU
 		{8FE67387-D645-43EF-B9C3-8FAAEADB4139}.Release|x86.Build.0 = Release|Any CPU
+		{3372A195-7F93-42F1-B30D-F9B63BC0ADDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3372A195-7F93-42F1-B30D-F9B63BC0ADDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3372A195-7F93-42F1-B30D-F9B63BC0ADDD}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{3372A195-7F93-42F1-B30D-F9B63BC0ADDD}.Debug|x64.Build.0 = Debug|Any CPU
+		{3372A195-7F93-42F1-B30D-F9B63BC0ADDD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3372A195-7F93-42F1-B30D-F9B63BC0ADDD}.Debug|x86.Build.0 = Debug|Any CPU
+		{3372A195-7F93-42F1-B30D-F9B63BC0ADDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3372A195-7F93-42F1-B30D-F9B63BC0ADDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3372A195-7F93-42F1-B30D-F9B63BC0ADDD}.Release|x64.ActiveCfg = Release|Any CPU
+		{3372A195-7F93-42F1-B30D-F9B63BC0ADDD}.Release|x64.Build.0 = Release|Any CPU
+		{3372A195-7F93-42F1-B30D-F9B63BC0ADDD}.Release|x86.ActiveCfg = Release|Any CPU
+		{3372A195-7F93-42F1-B30D-F9B63BC0ADDD}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -182,6 +198,8 @@ Global
 		{CD752C47-3913-4D57-86D0-8290AC028A75} = {CECF251D-10C5-4D61-A621-ABDC509A1556}
 		{8B71A4AB-55C0-48CB-93EB-DA076FAF44F3} = {5250B6B5-B041-437F-9EB1-9F9C953C9A3D}
 		{8FE67387-D645-43EF-B9C3-8FAAEADB4139} = {8B71A4AB-55C0-48CB-93EB-DA076FAF44F3}
+		{BDA0B382-AEF8-45A4-8724-195F5F9CF3D6} = {5250B6B5-B041-437F-9EB1-9F9C953C9A3D}
+		{3372A195-7F93-42F1-B30D-F9B63BC0ADDD} = {BDA0B382-AEF8-45A4-8724-195F5F9CF3D6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {96F876AF-838F-477B-9C50-66967EB99D28}
