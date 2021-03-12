@@ -1,3 +1,4 @@
+using CursoMVC.Data.Context;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -27,9 +28,12 @@ namespace CursoAPI.Api
         {
 
             services.AddControllers();
+
+            services.AddDbContext<MvcDbContext>();
+
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "CursoAPI.Api", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Bootcamp LocalizaLabs .NET Developer - CursoAPI", Version = "v1" });
             });
         }
 
@@ -39,7 +43,7 @@ namespace CursoAPI.Api
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "CursoAPI.Api v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Bootcamp LocalizaLabs .NET Developer - CursoAPI v1"));
             }
 
             app.UseHttpsRedirection();
