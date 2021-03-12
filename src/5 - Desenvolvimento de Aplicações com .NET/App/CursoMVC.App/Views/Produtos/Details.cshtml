@@ -1,4 +1,4 @@
-﻿@model CursoMVC.App.ViewModels.CategoriaViewModel
+﻿@model CursoMVC.App.ViewModels.ProdutoViewModel
 
 @{
     ViewData["Title"] = "Details";
@@ -7,15 +7,15 @@
 <h1>Details</h1>
 
 <div>
-    <h4>CategoriaViewModel</h4>
+    <h4>ProdutoViewModel</h4>
     <hr />
     <dl class="row">
-        <dt class = "col-sm-2">
+        @*<dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.Id)
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Id)
-        </dd>
+        </dd>*@
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.Descricao)
         </dt>
@@ -23,14 +23,26 @@
             @Html.DisplayFor(model => model.Descricao)
         </dd>
         <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Quantidade)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Quantidade)
+        </dd>
+        <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.Ativo)
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Ativo)
         </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Categoria)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Categoria.Descricao)
+        </dd>
     </dl>
 </div>
 <div>
-    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
     <a asp-action="Index">Back to List</a>
 </div>

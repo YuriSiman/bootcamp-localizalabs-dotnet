@@ -54,7 +54,7 @@ namespace CursoMVC.App.Controllers
             var produto = _mapper.Map<Produto>(produtoViewModel);
             await _produtoRepository.Adicionar(produto);
 
-            return View(produtoViewModel);
+            return RedirectToAction(nameof(Index));
         }
 
         public async Task<IActionResult> Edit(Guid id)

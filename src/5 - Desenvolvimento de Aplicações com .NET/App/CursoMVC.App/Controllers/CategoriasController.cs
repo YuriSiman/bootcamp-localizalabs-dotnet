@@ -27,7 +27,7 @@ namespace CursoMVC.App.Controllers
 
         public async Task<IActionResult> Details(Guid id)
         {
-            var categoriaViewModel = ObterCategoriaProdutos(id);
+            var categoriaViewModel = await ObterCategoriaProdutos(id);
 
             if (categoriaViewModel == null) return NotFound();
 
@@ -53,7 +53,7 @@ namespace CursoMVC.App.Controllers
 
         public async Task<IActionResult> Edit(Guid id)
         {
-            var categoriaViewModel = ObterCategoriaProdutos(id);
+            var categoriaViewModel = await ObterCategoriaProdutos(id);
 
             if (categoriaViewModel == null) return NotFound();
 
