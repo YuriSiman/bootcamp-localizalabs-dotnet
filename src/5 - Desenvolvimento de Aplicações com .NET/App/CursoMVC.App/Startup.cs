@@ -24,6 +24,8 @@ namespace CursoMVC.App
             services.AddDbContext<MvcDbContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
+            services.AddAutoMapper(typeof(Startup));
+
             services.AddControllersWithViews();
 
             services.AddScoped<MvcDbContext>();
