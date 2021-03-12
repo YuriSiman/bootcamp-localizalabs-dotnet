@@ -1,15 +1,12 @@
+using CursoMVC.Business.Interfaces;
 using CursoMVC.Data.Context;
+using CursoMVC.Data.Repository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace CursoMVC.App
 {
@@ -30,6 +27,8 @@ namespace CursoMVC.App
             services.AddControllersWithViews();
 
             services.AddScoped<MvcDbContext>();
+            services.AddScoped<ICategoriaRepository, CategoriaRepository>();
+            services.AddScoped<IProdutoRepository, ProdutoRepository>();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
