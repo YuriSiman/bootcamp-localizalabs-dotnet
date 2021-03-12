@@ -5,7 +5,6 @@ using CursoMVC.Business.Models;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace CursoMVC.App.Controllers
@@ -28,7 +27,7 @@ namespace CursoMVC.App.Controllers
 
         public async Task<IActionResult> Details(Guid id)
         {
-            var produtoViewModel = _mapper.Map<ProdutoViewModel>(await _produtoRepository.ObterProdutoCategoria(id));
+            var produtoViewModel = await ObterProdutoCategoria(id);
 
             if (produtoViewModel == null) return NotFound();
 
@@ -54,7 +53,7 @@ namespace CursoMVC.App.Controllers
 
         public async Task<IActionResult> Edit(Guid id)
         {
-            var produtoViewModel = _mapper.Map<ProdutoViewModel>(await _produtoRepository.ObterProdutoCategoria(id));
+            var produtoViewModel = await ObterProdutoCategoria(id);
 
             if (produtoViewModel == null) return NotFound();
 
@@ -77,7 +76,7 @@ namespace CursoMVC.App.Controllers
 
         public async Task<IActionResult> Delete(Guid id)
         {
-            var produtoViewModel = _mapper.Map<ProdutoViewModel>(await _produtoRepository.ObterProdutoCategoria(id));
+            var produtoViewModel = await ObterProdutoCategoria(id);
 
             if (produtoViewModel == null) return NotFound();
 
@@ -88,13 +87,18 @@ namespace CursoMVC.App.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(Guid id)
         {
-            var produtoViewModel = _mapper.Map<ProdutoViewModel>(await _produtoRepository.ObterProdutoCategoria(id));
+            var produtoViewModel = await ObterProdutoCategoria(id);
 
             if (produtoViewModel == null) return NotFound();
 
             await _produtoRepository.Remover(id);
 
             return RedirectToAction(nameof(Index));
+        }
+
+        private async Task<ProdutoViewModel> ObterProdutoCategoria(Guid id)
+        {
+            return _mapper.Map<ProdutoViewModel>(await _produtoRepository.ObterProdutoCategoria(id));
         }
     }
 }
