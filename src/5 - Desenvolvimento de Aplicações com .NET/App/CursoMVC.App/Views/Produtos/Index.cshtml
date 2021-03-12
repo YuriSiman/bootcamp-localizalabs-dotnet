@@ -1,4 +1,4 @@
-﻿@model IEnumerable<CursoMVC.App.ViewModels.CategoriaViewModel>
+﻿@model IEnumerable<CursoMVC.App.ViewModels.ProdutoViewModel>
 
 @{
     ViewData["Title"] = "Index";
@@ -19,7 +19,13 @@
                 @Html.DisplayNameFor(model => model.Descricao)
             </th>
             <th>
+                @Html.DisplayNameFor(model => model.Quantidade)
+            </th>
+            <th>
                 @Html.DisplayNameFor(model => model.Ativo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CategoriaId)
             </th>
             <th></th>
         </tr>
@@ -34,7 +40,13 @@
                 @Html.DisplayFor(modelItem => item.Descricao)
             </td>
             <td>
+                @Html.DisplayFor(modelItem => item.Quantidade)
+            </td>
+            <td>
                 @Html.DisplayFor(modelItem => item.Ativo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CategoriaId)
             </td>
             <td>
                 @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
