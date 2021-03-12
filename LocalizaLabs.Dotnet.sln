@@ -41,11 +41,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{35EAA0B4-730
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{054A4240-F802-4D96-87E7-D0E9048AD38F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursoMVC.App", "src\5 - Desenvolvimento de Aplicações com .NET\App\CursoMVC.App\CursoMVC.App.csproj", "{46842DCB-5B98-458E-98D8-8C10D2968F2C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CursoMVC.App", "src\5 - Desenvolvimento de Aplicações com .NET\App\CursoMVC.App\CursoMVC.App.csproj", "{46842DCB-5B98-458E-98D8-8C10D2968F2C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursoMVC.Data", "src\5 - Desenvolvimento de Aplicações com .NET\App\CursoMVC.Data\CursoMVC.Data.csproj", "{FA74D532-5379-40CE-83AA-AA1119E42AEF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CursoMVC.Data", "src\5 - Desenvolvimento de Aplicações com .NET\App\CursoMVC.Data\CursoMVC.Data.csproj", "{FA74D532-5379-40CE-83AA-AA1119E42AEF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursoMVC.Business", "src\5 - Desenvolvimento de Aplicações com .NET\App\CursoMVC.Business\CursoMVC.Business.csproj", "{2AB35DD5-E64D-428F-95A0-3998EF9DA598}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CursoMVC.Business", "src\5 - Desenvolvimento de Aplicações com .NET\App\CursoMVC.Business\CursoMVC.Business.csproj", "{2AB35DD5-E64D-428F-95A0-3998EF9DA598}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursoAPI.Api", "src\5 - Desenvolvimento de Aplicações com .NET\Api\CursoAPI.Api\CursoAPI.Api.csproj", "{1067B92B-E5ED-4626-BE0E-CDA3BA4CBB2C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -213,6 +215,18 @@ Global
 		{2AB35DD5-E64D-428F-95A0-3998EF9DA598}.Release|x64.Build.0 = Release|Any CPU
 		{2AB35DD5-E64D-428F-95A0-3998EF9DA598}.Release|x86.ActiveCfg = Release|Any CPU
 		{2AB35DD5-E64D-428F-95A0-3998EF9DA598}.Release|x86.Build.0 = Release|Any CPU
+		{1067B92B-E5ED-4626-BE0E-CDA3BA4CBB2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1067B92B-E5ED-4626-BE0E-CDA3BA4CBB2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1067B92B-E5ED-4626-BE0E-CDA3BA4CBB2C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{1067B92B-E5ED-4626-BE0E-CDA3BA4CBB2C}.Debug|x64.Build.0 = Debug|Any CPU
+		{1067B92B-E5ED-4626-BE0E-CDA3BA4CBB2C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1067B92B-E5ED-4626-BE0E-CDA3BA4CBB2C}.Debug|x86.Build.0 = Debug|Any CPU
+		{1067B92B-E5ED-4626-BE0E-CDA3BA4CBB2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1067B92B-E5ED-4626-BE0E-CDA3BA4CBB2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1067B92B-E5ED-4626-BE0E-CDA3BA4CBB2C}.Release|x64.ActiveCfg = Release|Any CPU
+		{1067B92B-E5ED-4626-BE0E-CDA3BA4CBB2C}.Release|x64.Build.0 = Release|Any CPU
+		{1067B92B-E5ED-4626-BE0E-CDA3BA4CBB2C}.Release|x86.ActiveCfg = Release|Any CPU
+		{1067B92B-E5ED-4626-BE0E-CDA3BA4CBB2C}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -239,6 +253,7 @@ Global
 		{46842DCB-5B98-458E-98D8-8C10D2968F2C} = {87CBFAC9-FAE2-4ED1-A694-CCEBA6973B44}
 		{FA74D532-5379-40CE-83AA-AA1119E42AEF} = {87CBFAC9-FAE2-4ED1-A694-CCEBA6973B44}
 		{2AB35DD5-E64D-428F-95A0-3998EF9DA598} = {87CBFAC9-FAE2-4ED1-A694-CCEBA6973B44}
+		{1067B92B-E5ED-4626-BE0E-CDA3BA4CBB2C} = {35EAA0B4-7304-4208-89A6-85C7C36FFBD5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {96F876AF-838F-477B-9C50-66967EB99D28}
