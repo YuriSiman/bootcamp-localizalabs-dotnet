@@ -25,7 +25,7 @@ namespace CursoMVC.Data.Migrations
                 {
                     Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     Descricao = table.Column<string>(type: "varchar(200)", nullable: false),
-                    Quantidade = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
+                    Quantidade = table.Column<int>(type: "int", nullable: false),
                     CategoriaId = table.Column<Guid>(type: "uniqueidentifier", nullable: false)
                 },
                 constraints: table =>

@@ -47,8 +47,8 @@ namespace CursoMVC.Data.Migrations
                         .IsRequired()
                         .HasColumnType("varchar(200)");
 
-                    b.Property<decimal>("Quantidade")
-                        .HasColumnType("decimal(18,2)");
+                    b.Property<int>("Quantidade")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 

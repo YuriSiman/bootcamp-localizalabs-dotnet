@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CursoMVC.Data.Migrations
 {
     [DbContext(typeof(MvcDbContext))]
-    [Migration("20210311224308_Initial")]
+    [Migration("20210312002638_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -49,8 +49,8 @@ namespace CursoMVC.Data.Migrations
                         .IsRequired()
                         .HasColumnType("varchar(200)");
 
-                    b.Property<decimal>("Quantidade")
-                        .HasColumnType("decimal(18,2)");
+                    b.Property<int>("Quantidade")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 
