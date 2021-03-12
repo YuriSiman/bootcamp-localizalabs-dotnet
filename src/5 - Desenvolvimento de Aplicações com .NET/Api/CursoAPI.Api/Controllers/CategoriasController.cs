@@ -1,9 +1,10 @@
-﻿using CursoMVC.Business.Interfaces;
+﻿using AutoMapper;
+using CursoAPI.Api.ViewModels;
+using CursoMVC.Business.Interfaces;
 using CursoMVC.Business.Models;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace CursoAPI.Api.Controllers
@@ -12,58 +13,66 @@ namespace CursoAPI.Api.Controllers
     public class CategoriasController : MainController
     {
         protected readonly ICategoriaRepository _categoriaRepository;
+        protected readonly IMapper _mapper;
 
-        public CategoriasController(ICategoriaRepository categoriaRepository)
+        public CategoriasController(ICategoriaRepository categoriaRepository, IMapper mapper)
         {
             _categoriaRepository = categoriaRepository;
+            _mapper = mapper;
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Categoria>>> Get()
+        public async Task<ActionResult<IEnumerable<CategoriaViewModel>>> GetCategorias()
         {
-            return await _categoriaRepository.ObterTodos();
+            var categoriaViewModel = _mapper.Map<IEnumerable<CategoriaViewModel>>(await _categoriaRepository.ObterTodos());
+
+            return Ok(categoriaViewModel);
         }
 
         [HttpGet("{id:guid}")]
-        public async Task<ActionResult<Categoria>> Get(Guid id)
+        public async Task<ActionResult<CategoriaViewModel>> Get(Guid id)
         {
-            var categoria = await _categoriaRepository.ObterCategoriaProdutos(id);
+            var categoriaViewModel = _mapper.Map<CategoriaViewModel>(await _categoriaRepository.ObterCategoriaProdutos(id));
 
-            if (categoria == null) return NotFound();
+            if (categoriaViewModel == null) return NotFound();
 
-            return categoria;
+            return Ok(categoriaViewModel);
         }
 
         [HttpPost]
-        public async Task<IActionResult> Post(Categoria categoria)
+        public async Task<ActionResult<CategoriaViewModel>> Post(CategoriaViewModel categoriaViewModel)
         {
-            if (categoria == null) return BadRequest();
+            if (!ModelState.IsValid) return BadRequest();
 
+            var categoria = _mapper.Map<Categoria>(categoriaViewModel);
             await _categoriaRepository.Adicionar(categoria);
 
             return Ok(categoria);
         }
 
         [HttpPut("{id:guid}")]
-        public async Task<IActionResult> Put(Guid id, Categoria categoria)
+        public async Task<ActionResult<CategoriaViewModel>> Put(Guid id, CategoriaViewModel categoriaViewModel)
         {
-            if (id != categoria.Id) return BadRequest();
+            if (id != categoriaViewModel.Id) return BadRequest();
 
+            if (!ModelState.IsValid) return BadRequest();
+
+            var categoria = _mapper.Map<Categoria>(categoriaViewModel);
             await _categoriaRepository.Atualizar(categoria);
 
-            return NoContent();
+            return Ok(categoria);
         }
 
         [HttpDelete("{id:guid}")]
-        public async Task<IActionResult> Delete(Guid id)
+        public async Task<ActionResult<CategoriaViewModel>> Delete(Guid id)
         {
-            var categoria = await _categoriaRepository.ObterCategoriaProdutos(id);
+            var categoriaViewModel = _mapper.Map<CategoriaViewModel>(await _categoriaRepository.ObterCategoriaProdutos(id));
 
-            if (categoria == null) return NotFound();
+            if (categoriaViewModel == null) return NotFound();
 
             await _categoriaRepository.Remover(id);
 
-            return Ok(categoria);
+            return Ok(categoriaViewModel);
         }
     }
 }

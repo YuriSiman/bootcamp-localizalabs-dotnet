@@ -1,8 +1,11 @@
+using CursoMVC.Business.Interfaces;
 using CursoMVC.Data.Context;
+using CursoMVC.Data.Repository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -26,10 +29,18 @@ namespace CursoAPI.Api
 
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContext<MvcDbContext>(options =>
+                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
+            services.AddAutoMapper(typeof(Startup));
 
             services.AddControllers();
 
-            services.AddDbContext<MvcDbContext>();
+            services.AddScoped<MvcDbContext>();
+            services.AddScoped<ICategoriaRepository, CategoriaRepository>();
+            services.AddScoped<IProdutoRepository, ProdutoRepository>();
+
+
 
             services.AddSwaggerGen(c =>
             {
