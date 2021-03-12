@@ -34,6 +34,9 @@ namespace CursoAPI.Api
 
             services.AddAutoMapper(typeof(Startup));
 
+            services.AddControllers().AddNewtonsoftJson(options =>
+                options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
+
             services.AddControllers();
 
             services.AddScoped<MvcDbContext>();

@@ -32,7 +32,7 @@ namespace CursoAPI.Api.Controllers
         [HttpGet("{id:guid}")]
         public async Task<ActionResult<CategoriaViewModel>> Get(Guid id)
         {
-            var categoriaViewModel = _mapper.Map<CategoriaViewModel>(await _categoriaRepository.ObterCategoriaProdutos(id));
+            var categoriaViewModel = await ObterCategoriaProdutos(id);
 
             if (categoriaViewModel == null) return NotFound();
 
@@ -66,13 +66,18 @@ namespace CursoAPI.Api.Controllers
         [HttpDelete("{id:guid}")]
         public async Task<ActionResult<CategoriaViewModel>> Delete(Guid id)
         {
-            var categoriaViewModel = _mapper.Map<CategoriaViewModel>(await _categoriaRepository.ObterCategoriaProdutos(id));
+            var categoriaViewModel = await ObterCategoriaProdutos(id);
 
             if (categoriaViewModel == null) return NotFound();
 
             await _categoriaRepository.Remover(id);
 
             return Ok(categoriaViewModel);
+        }
+
+        private async Task<CategoriaViewModel> ObterCategoriaProdutos(Guid id)
+        {
+            return _mapper.Map<CategoriaViewModel>(await _categoriaRepository.ObterCategoriaProdutos(id));
         }
     }
 }
