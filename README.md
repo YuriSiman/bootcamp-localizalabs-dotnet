@@ -443,10 +443,7 @@ Imprima a quantidade de números múltiplos de **2, 3, 4 e 5** presentes na list
 Exemplo de Entrada | Exemplo de Saída
 ------------ | -------------
 5 |
-2 5 4 20 10 | 4 Multiplo(s) de 2
- - | 0 Multiplo(s) de 3
- - | 2 Multiplo(s) de 4
- - | 3 Multiplo(s) de 5
+2 5 4 20 10 | 4 Multiplo(s) de 2 - 0 Multiplo(s) de 3 - 2 Multiplo(s) de 4 - 3 Multiplo(s) de 5
 
 * [Visualizar Código](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/blob/master/src/6%20-%20Praticando%20Programa%C3%A7%C3%A3o%20em%20CSharp/Pink%20e%20C%C3%A9rebro/Program.cs)  
 * [Voltar ao Início](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet#bootcamp-localizalabs-net-developer)  
