@@ -4,37 +4,45 @@
 
 ## :clipboard: Exercícios
 
-Soluções de Problemas em C#
-* [Consumo Médio do Automóvel](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/#consumo-m%C3%A9dio-do-autom%C3%B3vel)  
-* [DDD](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/#ddd)  
-* [Aumento de Salário](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/#aumento-de-salário)  
+Soluções de Problemas em C# | Linguagem
+------------ | -------------
+[Consumo Médio do Automóvel](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/#consumo-m%C3%A9dio-do-autom%C3%B3vel) | C#
+[DDD](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/#ddd) | C#
+[Aumento de Salário](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/#aumento-de-salário) | C#
 
-Criando uma Aplicação de Transferências Bancárias com .NET 
-* [Transferência Bancária](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/#transferência-bancária)  
+Criando uma Aplicação de Transferências Bancárias com .NET | Linguagem
+------------ | -------------
+[Transferência Bancária](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/#transferência-bancária) | C#
 
-Desafios Aritméticos em C#
-* [Média](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/#média)  
-* [Crescimento Populacional](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/#crescimento-populacional)  
-* [Bazinga!](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/#bazinga)  
-* [Tempo de um Evento](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/#tempo-de-um-evento)  
-* [Comunicação em Piralândia](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/#comunicação-em-piralândia)  
+Desafios Aritméticos em C# | Linguagem
+------------ | -------------
+[Média](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/#média) | C#
+[Crescimento Populacional](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/#crescimento-populacional) | C#
+[Bazinga!](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/#bazinga) | C#
+[Tempo de um Evento](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/#tempo-de-um-evento) | C#
+[Comunicação em Piralândia](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/#comunicação-em-piralândia) | C#
 
-Criando um APP simples de cadastro de séries em .NET
-* [Cadastro de Séries](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/#cadastro-de-séries)  
+Criando um APP simples de cadastro de séries em .NET | Linguagem
+------------ | -------------
+[Cadastro de Séries](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/#cadastro-de-séries) | C#
 
-Introdução à orquestração de conteiners com Docker
-* [Docker](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/#docker)  
+Introdução à orquestração de conteiners com Docker | Linguagem
+------------ | -------------
+[Docker](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/#docker) | C#
 
-Desenvolvimento de Aplicações com .NET
-* [CursoMVC - CursoAPI](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/#cursomvc---cursoapi)  
+Desenvolvimento de Aplicações com .NET | Linguagem
+------------ | -------------
+[CursoMVC - CursoAPI](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/#cursomvc---cursoapi) | C#
 
-Projeto .NET de Crowdfunding
-* [Crowdfunding](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/#crowdfunding)  
+Projeto .NET de Crowdfunding | Linguagem
+------------ | -------------
+[Crowdfunding](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/#crowdfunding) | C#
 
-Praticando Programação em C#
-* [Coordenadas de um Ponto](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/#coordenadas-de-um-ponto)  
-* [Compras no Supermercado](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/#compras-no-supermercado)  
-* [Pink e Cérebro](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/#pink-e-cérebro)  
+Praticando Programação em C# | Linguagem
+------------ | -------------
+[Coordenadas de um Ponto](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/#coordenadas-de-um-ponto) | C#
+[Compras no Supermercado](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/#compras-no-supermercado) | C#
+[Pink e Cérebro](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/#pink-e-cérebro) | C#
 
 ---
 
@@ -74,8 +82,8 @@ Distância: 2254 - Combustível Gasto: 124,4 | 18,119 km/l
 Distância: 4554 - Combustível Gasto: 464,6 | 9,802 km/l
 
 
-* [Visualizar Código](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/blob/master/src/1%20-%20Solu%C3%A7%C3%A3o%20de%20Problemas%20em%20CSharp/Consumo%20M%C3%A9dio%20do%20Autom%C3%B3vel/Program.cs)  
-* [Voltar ao Início](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet#bootcamp-localizalabs-net-developer)  
+[Visualizar Código](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/blob/master/src/1%20-%20Solu%C3%A7%C3%A3o%20de%20Problemas%20em%20CSharp/Consumo%20M%C3%A9dio%20do%20Autom%C3%B3vel/Program.cs)  
+[Voltar ao Início](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet#bootcamp-localizalabs-net-developer)  
 
 ---
 
@@ -95,9 +103,7 @@ DDD | Destination
 27 | Vitória
 31 | Belo Horizonte  
 
-Se a entrada for qualquer outro DDD que não esteja presente na tabela acima, o programa deverá informar:  
-``` DDD não cadastrado ```
-
+Se a entrada for qualquer outro DDD que não esteja presente na tabela acima, o programa deverá informar:  ``` DDD não cadastrado ```  
 
 **Entrada**  
 A entrada consiste de um único valor inteiro.  
@@ -109,8 +115,8 @@ Exemplo de Entrada | Exemplo de Saída
 ------------ | -------------
 11 | São Paulo
 
-* [Visualizar Código](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/blob/master/src/1%20-%20Solu%C3%A7%C3%A3o%20de%20Problemas%20em%20CSharp/DDD/Program.cs)  
-* [Voltar ao Início](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet#bootcamp-localizalabs-net-developer)  
+[Visualizar Código](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/blob/master/src/1%20-%20Solu%C3%A7%C3%A3o%20de%20Problemas%20em%20CSharp/DDD/Program.cs)  
+[Voltar ao Início](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet#bootcamp-localizalabs-net-developer)  
 
 ---
 
@@ -142,8 +148,8 @@ Exemplo de Entrada | Exemplo de Saída
 2000.00 | Novo salario: 2140.00 - Reajuste ganho: 140.00 - Em percentual: 7 %
 
 
-* [Visualizar Código](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/blob/master/src/1%20-%20Solu%C3%A7%C3%A3o%20de%20Problemas%20em%20CSharp/Aumento%20de%20Sal%C3%A1rio/Program.cs)  
-* [Voltar ao Início](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet#bootcamp-localizalabs-net-developer)  
+[Visualizar Código](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/blob/master/src/1%20-%20Solu%C3%A7%C3%A3o%20de%20Problemas%20em%20CSharp/Aumento%20de%20Sal%C3%A1rio/Program.cs)  
+[Voltar ao Início](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet#bootcamp-localizalabs-net-developer)  
 
 ---
 
@@ -156,8 +162,8 @@ Criando uma aplicação de transferência bancária com .NET e C#.
 Aprenda como criar um algoritmo simples de transferência bancária para exercer o pensamento orientado a objetos, o principal paradigma de programação utilizado no mercado. Nesse projeto você vai aprender: Como pensar orientado a objetos, como modelar o seu domínio, como utilizar enums.
 
 
-* [Visualizar Código](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/tree/master/src/2%20-%20Criando%20uma%20Aplica%C3%A7%C3%A3o%20de%20Transfer%C3%AAncias%20Banc%C3%A1rias%20com%20.NET/Transfer%C3%AAncias%20Banc%C3%A1rias)  
-* [Voltar ao Início](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet#bootcamp-localizalabs-net-developer)  
+[Visualizar Código](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/tree/master/src/2%20-%20Criando%20uma%20Aplica%C3%A7%C3%A3o%20de%20Transfer%C3%AAncias%20Banc%C3%A1rias%20com%20.NET/Transfer%C3%AAncias%20Banc%C3%A1rias)  
+[Voltar ao Início](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet#bootcamp-localizalabs-net-developer)  
 
 ---
 
@@ -180,8 +186,8 @@ Exemplo de Entrada | Exemplo de Saída
 0.0 - 7.1 | MEDIA = 4.84091
 10.0 - 10.0 | MEDIA = 10.00000
 
-* [Visualizar Código](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/blob/master/src/3%20-%20Desafios%20Aritm%C3%A9ticos%20em%20CSharp/M%C3%A9dia/Program.cs)  
-* [Voltar ao Início](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet#bootcamp-localizalabs-net-developer)  
+[Visualizar Código](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/blob/master/src/3%20-%20Desafios%20Aritm%C3%A9ticos%20em%20CSharp/M%C3%A9dia/Program.cs)  
+[Voltar ao Início](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet#bootcamp-localizalabs-net-developer)  
 
 ---
 
@@ -214,8 +220,8 @@ Exemplo de Entrada | Exemplo de Saída
 100000 110000 1.5 0.5 | 10 anos.
 62422 484317 3.1 1.0 | 100 anos.
 
-* [Visualizar Código](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/blob/master/src/3%20-%20Desafios%20Aritm%C3%A9ticos%20em%20CSharp/Crescimento%20Populacional/Program.cs)  
-* [Voltar ao Início](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet#bootcamp-localizalabs-net-developer)  
+[Visualizar Código](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/blob/master/src/3%20-%20Desafios%20Aritm%C3%A9ticos%20em%20CSharp/Crescimento%20Populacional/Program.cs)  
+[Voltar ao Início](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet#bootcamp-localizalabs-net-developer)  
 
 ---
 
@@ -252,8 +258,8 @@ papel pedra | Caso #1: Bazinga!
 lagarto tesoura | Caso #2: Raj trapaceou!
 Spock Spock | Caso #3: De novo!
 
-* [Visualizar Código](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/blob/master/src/3%20-%20Desafios%20Aritm%C3%A9ticos%20em%20CSharp/Bazinga!/Program.cs)  
-* [Voltar ao Início](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet#bootcamp-localizalabs-net-developer)  
+[Visualizar Código](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/blob/master/src/3%20-%20Desafios%20Aritm%C3%A9ticos%20em%20CSharp/Bazinga!/Program.cs)  
+[Voltar ao Início](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet#bootcamp-localizalabs-net-developer)  
 
 ---
 
@@ -285,8 +291,8 @@ Dia 5 | 3 dia(s)
 Dia 9 | 1 minuto(s)
 06 : 13 : 23 | 0 segundo(s)
 
-* [Visualizar Código](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/blob/master/src/3%20-%20Desafios%20Aritm%C3%A9ticos%20em%20CSharp/Tempo%20de%20um%20Evento/Program.cs)  
-* [Voltar ao Início](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet#bootcamp-localizalabs-net-developer)  
+[Visualizar Código](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/blob/master/src/3%20-%20Desafios%20Aritm%C3%A9ticos%20em%20CSharp/Tempo%20de%20um%20Evento/Program.cs)  
+[Voltar ao Início](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet#bootcamp-localizalabs-net-developer)  
 
 ---
 
@@ -310,8 +316,8 @@ Exemplo de Entrada | Exemplo de Saída
 1234 | 4321
 9876543210 | 0123456789
 
-* [Visualizar Código](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/blob/master/src/3%20-%20Desafios%20Aritm%C3%A9ticos%20em%20CSharp/Comunica%C3%A7%C3%A3o%20em%20Piral%C3%A2ndia/Program.cs)  
-* [Voltar ao Início](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet#bootcamp-localizalabs-net-developer)  
+[Visualizar Código](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/blob/master/src/3%20-%20Desafios%20Aritm%C3%A9ticos%20em%20CSharp/Comunica%C3%A7%C3%A3o%20em%20Piral%C3%A2ndia/Program.cs)  
+[Voltar ao Início](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet#bootcamp-localizalabs-net-developer)  
 
 ---
 
@@ -322,8 +328,8 @@ Exemplo de Entrada | Exemplo de Saída
 **Desafio**  
 Aprenda como criar um algoritmo simples de cadastro de séries para praticar seus conhecimentos de orientação a objetos, o principal paradigma de programação utilizada no mercado. Nesse projeto você vai aprender: Como pensar orientado a objetos, como modelar o seu domínio, como utilizar recursos de coleção.  
 
-* [Visualizar Código](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/tree/master/src/4%20-%20Criando%20um%20APP%20simples%20de%20cadastro%20de%20s%C3%A9ries%20em%20.NET/Cadastro%20de%20S%C3%A9ries)  
-* [Voltar ao Início](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet#bootcamp-localizalabs-net-developer)  
+[Visualizar Código](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/tree/master/src/4%20-%20Criando%20um%20APP%20simples%20de%20cadastro%20de%20s%C3%A9ries%20em%20.NET/Cadastro%20de%20S%C3%A9ries)  
+[Voltar ao Início](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet#bootcamp-localizalabs-net-developer)  
 
 ---
 
@@ -335,7 +341,7 @@ Implementação do último exercício proposto na etapa **Introdução à orques
 
 Link para o repositório do exercício: [Docker](https://github.com/YuriSiman/bootcamp-localizalabs-docker)  
 
-* [Voltar ao Início](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet#bootcamp-localizalabs-net-developer)  
+[Voltar ao Início](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet#bootcamp-localizalabs-net-developer)  
 
 ---
 
@@ -363,8 +369,8 @@ O passo a passo da arquitetura utilizada neste projeto pode ser conferido neste 
 
 <img src="./readme-images/swagger.png" />
 
-* [Visualizar Código](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/tree/master/src/5%20-%20Desenvolvimento%20de%20Aplica%C3%A7%C3%B5es%20com%20.NET)  
-* [Voltar ao Início](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet#bootcamp-localizalabs-net-developer)  
+[Visualizar Código](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/tree/master/src/5%20-%20Desenvolvimento%20de%20Aplica%C3%A7%C3%B5es%20com%20.NET)  
+[Voltar ao Início](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet#bootcamp-localizalabs-net-developer)  
 
 ---
 
@@ -376,7 +382,7 @@ Que se sentir mais seguro nas entregas de suas aplicações? Aprenda a testar um
 
 Link para o repositório do exercício: [Crowdfunding](https://github.com/YuriSiman/dotnet-vaquinha-tests)  
 
-* [Voltar ao Início](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet#bootcamp-localizalabs-net-developer)  
+[Voltar ao Início](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet#bootcamp-localizalabs-net-developer)  
 
 ---
 
@@ -400,8 +406,8 @@ Exemplo de Entrada | Exemplo de Saída
 0.1 0.1 | Q1
 0.0 0.0 | Origem
 
-* [Visualizar Código](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/blob/master/src/6%20-%20Praticando%20Programa%C3%A7%C3%A3o%20em%20CSharp/Coordenadas%20de%20um%20Ponto/Program.cs)  
-* [Voltar ao Início](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet#bootcamp-localizalabs-net-developer)  
+[Visualizar Código](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/blob/master/src/6%20-%20Praticando%20Programa%C3%A7%C3%A3o%20em%20CSharp/Coordenadas%20de%20um%20Ponto/Program.cs)  
+[Voltar ao Início](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet#bootcamp-localizalabs-net-developer)  
 
 ---
 
@@ -423,8 +429,8 @@ Exemplo de Entrada | Exemplo de Saída
 carne laranja suco picles laranja picles | carne laranja picles suco
 laranja pera laranja pera pera | laranja pera
 
-* [Visualizar Código](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/blob/master/src/6%20-%20Praticando%20Programa%C3%A7%C3%A3o%20em%20CSharp/Compras%20no%20Supermercado/Program.cs)  
-* [Voltar ao Início](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet#bootcamp-localizalabs-net-developer)  
+[Visualizar Código](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/blob/master/src/6%20-%20Praticando%20Programa%C3%A7%C3%A3o%20em%20CSharp/Compras%20no%20Supermercado/Program.cs)  
+[Voltar ao Início](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet#bootcamp-localizalabs-net-developer)  
 
 ---
 
@@ -445,8 +451,8 @@ Exemplo de Entrada | Exemplo de Saída
 5 |
 2 5 4 20 10 | 4 Multiplo(s) de 2 - 0 Multiplo(s) de 3 - 2 Multiplo(s) de 4 - 3 Multiplo(s) de 5
 
-* [Visualizar Código](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/blob/master/src/6%20-%20Praticando%20Programa%C3%A7%C3%A3o%20em%20CSharp/Pink%20e%20C%C3%A9rebro/Program.cs)  
-* [Voltar ao Início](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet#bootcamp-localizalabs-net-developer)  
+[Visualizar Código](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/blob/master/src/6%20-%20Praticando%20Programa%C3%A7%C3%A3o%20em%20CSharp/Pink%20e%20C%C3%A9rebro/Program.cs)  
+[Voltar ao Início](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet#bootcamp-localizalabs-net-developer)  
 
 ---
 
