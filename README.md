@@ -22,11 +22,11 @@ Desafios Aritméticos em C#
 Criando um APP simples de cadastro de séries em .NET
 * [Cadastro de Séries](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/#cadastro-de-séries)  
 
-Desenvolvimento de Aplicações com .NET
-* [CursoMVC - CursoAPI](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/#)  
-
 Introdução à orquestração de conteiners com Docker
 * [Docker](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/#docker)  
+
+Desenvolvimento de Aplicações com .NET
+* [CursoMVC - CursoAPI](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/#cursomvc---cursoapi)  
 
 ---
 
@@ -331,20 +331,19 @@ Utilizei o Entity Framework Core criando um contexto de dados e implementando um
 
 O projeto segue conforme o que as aulas pedem, basicamente um CRUD completo entre as entidades Categoria e Produto, porém, o grande diferencial é que implementei de uma forma diferente, fazendo uso de uma arquitetura mais desacoplada, distribuída e de fácil manutenção.
 
-O passo a passo da arquitetura utilizada pode ser conferido neste meu [repositório](https://github.com/YuriSiman/complete-app-crud-aspnetcore-mvc)  
-
-Modelo Entidade-Relacionamento conforme a utilização do Entity Framework:  
-
-img
+O passo a passo da arquitetura utilizada neste projeto pode ser conferido neste meu [repositório!](https://github.com/YuriSiman/complete-app-crud-aspnetcore-mvc)  
 
 Aplicação MVC:
 
-img
+<img src="./readme-images/lista-categoria.png" />
+<img src="./readme-images/lista-produtos-categorias.png" />
+<img src="./readme-images/detalhes.png" />
 
-Web API utilizando o Swagger para documentação:
+WebAPI utilizando o Swagger para documentação:  
 
-img
+<img src="./readme-images/swagger.png" />
 
+* [Visualizar Código](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/tree/master/src/5%20-%20Desenvolvimento%20de%20Aplica%C3%A7%C3%B5es%20com%20.NET)  
 * [Voltar ao Início](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet#bootcamp-localizalabs-net-developer)  
 
 ---
