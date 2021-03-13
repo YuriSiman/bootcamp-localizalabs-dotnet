@@ -22,6 +22,9 @@ Desafios Aritméticos em C#
 Criando um APP simples de cadastro de séries em .NET
 * [Cadastro de Séries](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/#cadastro-de-séries)  
 
+Desenvolvimento de Aplicações com .NET
+* [CursoMVC - CursoAPI](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/#)  
+
 Introdução à orquestração de conteiners com Docker
 * [Docker](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/#docker)  
 
@@ -312,6 +315,36 @@ Exemplo de Entrada | Exemplo de Saída
 Aprenda como criar um algoritmo simples de cadastro de séries para praticar seus conhecimentos de orientação a objetos, o principal paradigma de programação utilizada no mercado. Nesse projeto você vai aprender: Como pensar orientado a objetos, como modelar o seu domínio, como utilizar recursos de coleção.  
 
 * [Visualizar Código](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/tree/master/src/4%20-%20Criando%20um%20APP%20simples%20de%20cadastro%20de%20s%C3%A9ries%20em%20.NET/Cadastro%20de%20S%C3%A9ries)  
+* [Voltar ao Início](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet#bootcamp-localizalabs-net-developer)  
+
+---
+
+### Desenvolvimento de Aplicações com .NET
+
+## CursoMVC - CursoAPI
+
+Aprenda sobre o Entity Framework, como criar aplicativos web ASP.NET API e ASP.NET MVC. Você também vai criar testes na aplicação e um projeto com Unit Tests.  
+
+Referente aos projetos implementados, os desenvolvi implementando boas práticas de desenvolvimento, aplicando Pattern Repository, mapeando entidades entre Models e ViewModels com AutoMapper, criando uma arquitetura distribuída para o projeto MVC com Class Library para a camada de negócios (Business), para a camada de dados (Data) e para a camada da aplicação MVC (App), também foi criado uma API para a utilização das camadas de negócios e dados.
+
+Utilizei o Entity Framework Core criando um contexto de dados e implementando um mapeamento com o Fluent Api, e para o versionamento do bando de dados, implementeis as Migrations.
+
+O projeto segue conforme o que as aulas pedem, basicamente um CRUD completo entre as entidades Categoria e Produto, porém, o grande diferencial é que implementei de uma forma diferente, fazendo uso de uma arquitetura mais desacoplada, distribuída e de fácil manutenção.
+
+O passo a passo da arquitetura utilizada pode ser conferido neste meu [repositório](https://github.com/YuriSiman/complete-app-crud-aspnetcore-mvc)  
+
+Modelo Entidade-Relacionamento conforme a utilização do Entity Framework:  
+
+img
+
+Aplicação MVC:
+
+img
+
+Web API utilizando o Swagger para documentação:
+
+img
+
 * [Voltar ao Início](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet#bootcamp-localizalabs-net-developer)  
 
 ---
