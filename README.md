@@ -31,6 +31,11 @@ Desenvolvimento de Aplicações com .NET
 Projeto .NET de Crowdfunding
 * [Crowdfunding](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/#crowdfunding)  
 
+Praticando Programação em C#
+* [Coordenadas de um Ponto](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/#coordenadas-de-um-ponto)  
+* [Compras no Supermercado](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/#compras-no-supermercado)  
+* [Pink e Cérebro](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/#pink-e-cérebro)  
+
 ---
 
 ### :dart: Objetivo
@@ -371,6 +376,79 @@ Que se sentir mais seguro nas entregas de suas aplicações? Aprenda a testar um
 
 Link para o repositório do exercício: [Crowdfunding](https://github.com/YuriSiman/dotnet-vaquinha-tests)  
 
+* [Voltar ao Início](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet#bootcamp-localizalabs-net-developer)  
+
+---
+
+### Praticando Programação em C#  
+
+## Coordenadas de um Ponto  
+
+**Desafio**  
+Leia **2** valores com uma casa decimal (x e y), que devem representar as coordenadas de um ponto em um plano. A seguir, determine qual o quadrante ao qual pertence o ponto, ou se está sobre um dos eixos cartesianos ou na origem (x = y = 0).  
+Se o ponto estiver na origem, escreva a mensagem **Origem**. Se o ponto estiver sobre um dos eixos escreva **Eixo X** ou **Eixo Y**, conforme for a situação.  
+
+**Entrada**  
+A entrada contem as coordenadas de um ponto.    
+
+**Saída**  
+A saída deve apresentar o quadrante em que o ponto se encontra.  
+
+Exemplo de Entrada | Exemplo de Saída
+------------ | -------------
+4.5 -2.2 | Q4
+0.1 0.1 | Q1
+0.0 0.0 | Origem
+
+* [Visualizar Código](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/blob/master/src/6%20-%20Praticando%20Programa%C3%A7%C3%A3o%20em%20CSharp/Coordenadas%20de%20um%20Ponto/Program.cs)  
+* [Voltar ao Início](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet#bootcamp-localizalabs-net-developer)  
+
+---
+
+## Compras no Supermercado  
+
+**Desafio**  
+Pedro trabalha sempre até tarde todos os dias, com isso tem pouco tempo tempo para as tarefas domésticas. Para economizar tempo ele faz a lista de compras do supermercado em um aplicativo e costuma anotar cada item na mesma hora que percebe a falta dele em casa.  
+O problema é que o aplicativo não exclui itens duplicados, como Pedro anota o mesmo item mais de uma vez e a lista acaba ficando extensa. Sua tarefa é melhorar o aplicativo de notas desenvolvendo um código que exclua os itens duplicados da lista de compras e que os ordene alfabeticamente.  
+
+**Entrada**  
+A primeira linha de entrada contém um inteiro **N** (N < 100) com a quantidade de casos de teste que vem a seguir, ou melhor, a quantidade de listas de compras para organizar. Cada lista de compra consiste de uma única linha que contém de 1 a 1000 itens ou palavras compostas apenas de letras minúsculas (de 1 a 20 letras), sem acentos e separadas por um espaço.  
+
+**Saída**  
+A saída contém **N** linhas, cada uma representando uma lista de compra, sem os itens repetidos e em ordem alfabética.  
+
+Exemplo de Entrada | Exemplo de Saída
+------------ | -------------
+2 |
+carne laranja suco picles laranja picles | carne laranja picles suco
+laranja pera laranja pera pera | laranja pera
+
+* [Visualizar Código](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/blob/master/src/6%20-%20Praticando%20Programa%C3%A7%C3%A3o%20em%20CSharp/Compras%20no%20Supermercado/Program.cs)  
+* [Voltar ao Início](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet#bootcamp-localizalabs-net-developer)  
+
+---
+
+## Pink e Cérebro  
+
+**Desafio**  
+Pink e Cérebro dividem um apartamento e estão juntos 24h por dia desde o começo da pandemia. Para passar o temp, Pink cria problemas matemáticos para Cérebro resolver, o último deles foi uma lista de números com a seguinte pergunta: quantos números da lista são múltiplos de **2, 3, 4 e 5**?  
+Apesar de parecer simples, porém, quando a lista contém muitos números, Cérebro se confunde e acaba errando alguns cálculos. Ajude Cérebro a resolver o desadio de Pink.  
+
+**Entrada**  
+A primeira linha da entrada consiste em um inteiro **N** (1 ≤ N ≤1000), representando a quantidade de números na lista de Pink. A segunda linha contém **N** inteiros Li (1 ≤ Li ≤ 100), representando os números da lista de Pink.  
+
+**Saída**  
+Imprima a quantidade de números múltiplos de **2, 3, 4 e 5** presentes na lista. Observe a formatação da saída nos exemplos, pois ela deve ser seguida rigorosamente.  
+
+Exemplo de Entrada | Exemplo de Saída
+------------ | -------------
+5 |
+2 5 4 20 10 | 4 Multiplo(s) de 2
+ | 0 Multiplo(s) de 3
+ | 2 Multiplo(s) de 4
+ | 3 Multiplo(s) de 5
+
+* [Visualizar Código](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/blob/master/src/6%20-%20Praticando%20Programa%C3%A7%C3%A3o%20em%20CSharp/Pink%20e%20C%C3%A9rebro/Program.cs)  
 * [Voltar ao Início](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet#bootcamp-localizalabs-net-developer)  
 
 ---
