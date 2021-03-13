@@ -28,6 +28,9 @@ Introdução à orquestração de conteiners com Docker
 Desenvolvimento de Aplicações com .NET
 * [CursoMVC - CursoAPI](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/#cursomvc---cursoapi)  
 
+Projeto .NET de Crowdfunding
+* [Crowdfunding](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/#crowdfunding)  
+
 ---
 
 ### :dart: Objetivo
@@ -356,6 +359,18 @@ O passo a passo da arquitetura utilizada neste projeto pode ser conferido neste 
 <img src="./readme-images/swagger.png" />
 
 * [Visualizar Código](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/tree/master/src/5%20-%20Desenvolvimento%20de%20Aplica%C3%A7%C3%B5es%20com%20.NET)  
+* [Voltar ao Início](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet#bootcamp-localizalabs-net-developer)  
+
+---
+
+### Implementando sua stack de testes de unidade e integrados em um projeto .NET de Crowdfunding
+
+## Crowdfunding
+
+Que se sentir mais seguro nas entregas de suas aplicações? Aprenda a testar um projeto de crowdfunding (vaquinha online) desenvolvida em .NET Core com a arquitetura MVC. Você irá baixar uma aplicação completa feita por expert e sua missão será implementar a parte de testes desta aplicação. Veja na teoria e na prática os principais conceitos de testes para aumentar a qualidade de entrega de seus projetos com testes de unidade, integrados e TDD.   
+
+Link para o repositório do exercício: [Crowdfunding](https://github.com/YuriSiman/dotnet-vaquinha-tests)  
+
 * [Voltar ao Início](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet#bootcamp-localizalabs-net-developer)  
 
 ---
