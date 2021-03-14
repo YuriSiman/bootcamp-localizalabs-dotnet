@@ -2,7 +2,7 @@
 
 <p align="center">Implementações de exercícios de programação do Bootcamp LocalizaLabs .NET Developer</p>
 
-## :clipboard: Exercícios
+## :clipboard: Etapas e Exercícios
 
 Soluções de Problemas em C# | Linguagem
 ------------ | -------------
@@ -47,6 +47,11 @@ Praticando Programação em C# | Linguagem
 Configuração da arquitetura back-end com .NET Core | Linguagem
 ------------ | -------------
 [API .NET Core](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/#api-net-core) | C#
+
+Construindo um projeto de uma API.NET integrada ao MongoDB | Linguagem
+------------ | -------------
+[API MongoDB](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/#api-mongodb) | C#
+
 ---
 
 ### :dart: Objetivo
@@ -480,6 +485,48 @@ Nossa aplicação poderá ser utilizada por aplicações Web Front-end e também
 <img src="./readme-images/curso-api-backend-swagger.png" />
 
 [Visualizar Código](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/tree/master/src/7%20-%20Configura%C3%A7%C3%A3o%20de%20Arquitetura%20Back-End%20com%20.NET%20Core/Curso.Api)  
+[Voltar ao Início](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet#bootcamp-localizalabs-net-developer)  
+
+---
+
+### Construindo um projeto de uma API.NET integrada ao MongoDB
+
+## API MongoDB
+
+Construiremos um projeto de uma API em .NET Core integrada a um cluster MongoDB, que será criado no service cloud Mongo Atlas. O projeto consiste em uma API que cadastra, altera, deleta e retorna pessoas infectadas pelo coronavirus. **As informações do projeto são fictícias, apenas para fins didáticos**.  
+
+Implementei pequenas modificações no projeto que não foram implementadas nas aulas da etapa Construindo um projeto de uma API.NET integrada ao MongoDB.
+
+#### API documentada com o Swagger
+
+<img src="./readme-images/api-mongodb-swagger.png" />
+
+#### Criando um Cluster no MongoDB Atlas
+
+<img src="./readme-images/create-a-shared-cluster.png" />
+<img src="./readme-images/cluster-tier.png" />
+
+#### Conectando sua aplicação ao Cluster
+
+<img src="./readme-images/connect-to-cluster.png" />
+
+#### Adicionando como usuário uma Base de Dados 
+
+<img src="./readme-images/add-new-database-user.png" />
+
+#### Adicionando um IP de Acesso
+
+<img src="./readme-images/add-ip-access-list-entry.png" />
+
+#### Informações do Cluster
+
+<img src="./readme-images/cluster.png" />
+
+#### Dashboard MongoDB Atlas
+
+<img src="./readme-images/dashboards.png" />
+
+[Visualizar Código](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/tree/master/src/8%20-%20Construindo%20um%20projeto%20de%20uma%20API.NET%20integrada%20ao%20MongoDB/API.MongoDB)  
 [Voltar ao Início](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet#bootcamp-localizalabs-net-developer)  
 
 ---
