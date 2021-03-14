@@ -1,8 +1,13 @@
+using Curso.Api.Business.Repositories;
+using Curso.Api.Configurations;
+using Curso.Api.Infraestrutura.Data;
+using Curso.Api.Infraestrutura.Data.Repositories;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -83,6 +88,12 @@ namespace Curso.Api
                  };
              });
 
+            services.AddDbContext<CursoDbContext>(options =>
+                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
+            services.AddScoped<IUsuarioRepository, UsuarioRepository>();
+            services.AddScoped<ICursoRepository, CursoRepository>();
+            services.AddScoped<IAuthenticationService, JwtService>();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
