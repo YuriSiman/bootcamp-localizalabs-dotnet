@@ -6,13 +6,15 @@ using System.Threading.Tasks;
 
 namespace Curso.Api.ViewModels.UsuariosViewModels
 {
-    public class LoginViewModelInput
+    public class RegistroViewModelInput
     {
         [Required(ErrorMessage = "O campo {0} é obrigatório")]
         public string Login { get; set; }
 
         [Required(ErrorMessage = "O campo {0} é obrigatório")]
-        public string Senha { get; set; }
+        public string Email { get; set; }
 
+        [Required(ErrorMessage = "O campo {0} é obrigatório")]
+        public string Senha { get; set; }
     }
 }
