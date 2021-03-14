@@ -44,6 +44,9 @@ Praticando Programação em C# | Linguagem
 [Compras no Supermercado](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/#compras-no-supermercado) | C#
 [Pink e Cérebro](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/#pink-e-cérebro) | C#
 
+Configuração da arquitetura back-end com .NET Core | Linguagem
+------------ | -------------
+[API .NET Core](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/#api-net-core) | C#
 ---
 
 ### :dart: Objetivo
@@ -454,6 +457,25 @@ Exemplo de Entrada | Exemplo de Saída
 2 5 4 20 10 | 4 Multiplo(s) de 2 - 0 Multiplo(s) de 3 - 2 Multiplo(s) de 4 - 3 Multiplo(s) de 5
 
 [Visualizar Código](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/blob/master/src/6%20-%20Praticando%20Programa%C3%A7%C3%A3o%20em%20CSharp/Pink%20e%20C%C3%A9rebro/Program.cs)  
+[Voltar ao Início](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet#bootcamp-localizalabs-net-developer)  
+
+---
+
+### Configuração da arquitetura back-end com .NET Core
+
+## API .NET Core
+
+Aprenda de forma 100% prática a desenvolver um projeto com .NET Core usando RESTful API's e outras funções que otimizam o trabalho com a tecnologia. Neste projeto, tenho como objetivo implementar uma arquitetura back-end de uma API em ASP.NET Core, organizando os componentes da aplicação, documentando a API e aplicar Design Pattern na aplicação.  
+
+Faremos o **Cadastro** de usuários, **Login** de usuários, também iremos realizar o **Cadastro** de um curso do usuário autenticado e teremos uma **Lista** de cursos deste usuário autenticado na aplicação.  
+
+Setup da Aplicação
+
+Nossa aplicação poderá ser utilizada por aplicações Web Front-end e também por aplicações mobile.
+
+img
+
+[Visualizar Código]()  
 [Voltar ao Início](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet#bootcamp-localizalabs-net-developer)  
 
 ---
