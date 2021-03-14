@@ -533,7 +533,7 @@ Implementei pequenas modificações no projeto que não foram implementadas nas 
 
 ## :vertical_traffic_light: Status do Projeto
 
-:construction: Atividades do Bootcamp sendo implementadas :construction:
+:heavy_check_mark: Bootcamp Finalizado!  
 
 ---
 
