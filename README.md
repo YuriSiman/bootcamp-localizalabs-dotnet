@@ -469,13 +469,17 @@ Aprenda de forma 100% prática a desenvolver um projeto com .NET Core usando RES
 
 Faremos o **Cadastro** de usuários, **Login** de usuários, também iremos realizar o **Cadastro** de um curso do usuário autenticado e teremos uma **Lista** de cursos deste usuário autenticado na aplicação.  
 
-Setup da Aplicação
+#### Setup da Aplicação
 
 Nossa aplicação poderá ser utilizada por aplicações Web Front-end e também por aplicações mobile.
 
-img
+<img src="./readme-images/arquitetura-backend.png" />
 
-[Visualizar Código]()  
+#### API documentada com o Swagger
+
+<img src="./readme-images/curso-api-backend-swagger.png" />
+
+[Visualizar Código](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/tree/master/src/7%20-%20Configura%C3%A7%C3%A3o%20de%20Arquitetura%20Back-End%20com%20.NET%20Core/Curso.Api)  
 [Voltar ao Início](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet#bootcamp-localizalabs-net-developer)  
 
 ---
