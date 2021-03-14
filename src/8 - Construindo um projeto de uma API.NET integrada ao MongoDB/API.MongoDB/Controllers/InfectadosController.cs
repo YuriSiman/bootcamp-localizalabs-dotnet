@@ -2,6 +2,7 @@
 using API.MongoDB.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using MongoDB.Driver;
+using System;
 using System.Linq;
 
 namespace API.MongoDB.Controllers
@@ -19,7 +20,7 @@ namespace API.MongoDB.Controllers
         }
 
         [HttpPost]
-        public ActionResult SalvarInfectado([FromBody] InfectadoViewModel infectadoViewModel)
+        public ActionResult Post([FromBody] InfectadoViewModel infectadoViewModel)
         {
             var infectado = new Infectado(infectadoViewModel.DataNascimento, infectadoViewModel.Sexo, infectadoViewModel.Latitude, infectadoViewModel.Longitude);
 
@@ -29,11 +30,29 @@ namespace API.MongoDB.Controllers
         }
 
         [HttpGet]
-        public ActionResult ObterInfectados()
+        public ActionResult Get()
         {
             var infectados = _infectadosCollection.Find(Builders<Infectado>.Filter.Empty).ToList();
 
             return Ok(infectados);
+        }
+
+        [HttpPut]
+        public ActionResult Put([FromBody] InfectadoViewModel infectadoViewModel)
+        {
+            _infectadosCollection.UpdateOne(Builders<Infectado>.Filter
+                .Where(i => i.DataNascimento == infectadoViewModel.DataNascimento), Builders<Infectado>.Update.Set("sexo", infectadoViewModel.Sexo));
+
+            return Ok("Atualizado com sucesso");
+        }
+
+        [HttpDelete("{dataNasc}")]
+        public ActionResult Delete(DateTime dataNsc)
+        {
+            _infectadosCollection.DeleteOne(Builders<Infectado>.Filter
+                .Where(i => i.DataNascimento == dataNsc));
+
+            return Ok("Excluído com sucesso");
         }
     }
 }
