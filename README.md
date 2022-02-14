@@ -1,6 +1,89 @@
-<h1 align="center">Bootcamp LocalizaLabs .NET Developer</h1>
+<div id="top"></div>
 
-<p align="center">Implementações de exercícios de programação do Bootcamp LocalizaLabs .NET Developer</p>
+<br/>
+<div align="center">
+    <img src="./readme-img/csharp-original.svg" alt="Logo" width="100" height="100" />
+    <h1 align="center">Bootcamp LocalizaLabs .NET Developer</h1>
+    <p align="center">Implementações de exercícios de programação do Bootcamp LocalizaLabs .NET Developer 1 e 2</p>
+</div>
+
+<br/>
+
+<div align="center">
+    <a href="https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/blob/master/LICENSE" target="_blank">
+      <img alt="LICENSE" src="https://img.shields.io/badge/license-mit-%23A6CE39?style=for-the-badge&logo=github" />
+    </a>
+    <a href="https://github.com/YuriSiman" target="_blank">
+      <img alt="GitHub" src="https://img.shields.io/badge/github-perfil-%237159c1?style=for-the-badge&logo=github" />
+    </a>
+    <a href="https://yurisiman.com.br" target="_blank">
+      <img alt="Site" src="https://img.shields.io/badge/site-yurisiman-E0A80D?style=for-the-badge&logo=Purism" />
+    </a>
+    <a href="https://www.linkedin.com/in/yurisiman/" target="_blank">
+      <img alt="Linkedin" src="https://img.shields.io/badge/linkedin-social-0A66C2?style=for-the-badge&logo=LinkedIn" />
+    </a>
+    <a href="mailto:contato@yurisiman.com.br" target="_blank">
+      <img alt="Gmail" src="https://img.shields.io/badge/email-contato-EA4335?style=for-the-badge&logo=Gmail" />
+    </a>
+</div>
+
+<br/>
+
+## :clipboard: Sobre o Projeto
+
+Lista de exercícios resolvidos no Bootcamp LocalizaLabs .NET Developer, oferecido pela plataforma Digital Innovation One. Espero contribuir fazendo com que este repositório possa servir como fonte de estudo e consulta a muitos desenvolvedores que, assim como eu, realizaram o Bootcamp, ou mesmo aqueles que não o fizeram, mas que gostariam de estudar com desafios propostos. :smiley::coffee:
+
+---
+
+## :pencil: Pré-requisitos
+
+1. Construído com .NET 5.0 e, alguns desafios, com .NET 6.0 e codificado em C#. Se você não possui o dotnet instalado, acesse [aqui](https://dotnet.microsoft.com/) e instale a versão mais recente.
+2. Clone este repositório em sua máquina local
+
+   ```sh
+   git clone https://github.com/YuriSiman/bootcamp-localizalabs-dotnet.git
+   ```
+
+---
+
+## :dart: Tabela de Desafios
+
+<details>
+  <summary>Bootcamp LocalizaLabs .NET Developer</summary>
+  <ul>
+    <li><a href="#desafio01">Consumo Médio do Automóvel</a></li>
+    <li><a href="#desafio02">DDD</a></li>
+    <li><a href="#desafio03">Aumento de Salário</a></li>
+    <li><a href="#desafio04">Criando uma Aplicação de Transferências Bancárias com .NET</a></li>
+    <li><a href="#desafio05">Média</a></li>
+    <li><a href="#desafio06">Crescimento Populacional</a></li>
+    <li><a href="#desafio07">Bazinga!</a></li>
+    <li><a href="#desafio08">Tempo de um Evento</a></li>
+    <li><a href="#desafio09">Comunicação em Piralândia</a></li>
+    <li><a href="#desafio10">Criando um APP simples de cadastro de séries em .NET</a></li>
+    <li><a href="#desafio11">Introdução à orquestração de conteiners com Docker</a></li>
+    <li><a href="#desafio12">Desenvolvimento de Aplicações com .NET</a></li>
+    <li><a href="#desafio13">Projeto .NET de Crowdfunding</a></li>
+    <li><a href="#desafio14">Coordenadas de um Ponto</a></li>
+    <li><a href="#desafio15">Compras no Supermercado</a></li>
+    <li><a href="#desafio16">Pink e Cérebro</a></li>
+    <li><a href="#desafio17">Configuração da arquitetura back-end com .NET Core</a></li>
+    <li><a href="#desafio18">Construindo um projeto de uma API.NET integrada ao MongoDB</a></li>
+    <li><a href="#desafio19">Desafio 19</a></li>
+    <li><a href="#desafio20">Desafio 20</a></li>
+    <li><a href="#desafio21">Desafio 21</a></li>
+    <li><a href="#desafio22">Desafio 22</a></li>
+    <li><a href="#desafio23">Desafio 23</a></li>
+    <li><a href="#desafio24">Desafio 24</a></li>
+    <li><a href="#desafio25">Desafio 25</a></li>
+    <li><a href="#desafio26">Desafio 26</a></li>
+    <li><a href="#desafio27">Desafio 27</a></li>
+    <li><a href="#desafio28">Desafio 28</a></li>
+  </ul>
+</details>
+
+---
+
 
 ## :clipboard: Etapas e Exercícios
 
