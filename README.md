@@ -2,7 +2,7 @@
 
 <br/>
 <div align="center">
-    <img src="./readme-imgages/localiza-labs.png" alt="Logo" width="100" height="100" />
+    <img src="./readme-images/localiza-labs.png" alt="Logo" width="100" height="100" />
     <h1 align="center">Bootcamp LocalizaLabs .NET Developer</h1>
     <p align="center">Implementações de exercícios de programação do Bootcamp LocalizaLabs .NET Developer 1 e 2</p>
 </div>
