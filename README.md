@@ -2,7 +2,7 @@
 
 <br/>
 <div align="center">
-    <img src="./readme-img/csharp-original.svg" alt="Logo" width="100" height="100" />
+    <img src="./readme-imgages/localiza-labs.png" alt="Logo" width="100" height="100" />
     <h1 align="center">Bootcamp LocalizaLabs .NET Developer</h1>
     <p align="center">Implementações de exercícios de programação do Bootcamp LocalizaLabs .NET Developer 1 e 2</p>
 </div>
@@ -31,13 +31,14 @@
 
 ## :clipboard: Sobre o Projeto
 
-Lista de exercícios resolvidos no Bootcamp LocalizaLabs .NET Developer, oferecido pela plataforma Digital Innovation One. Espero contribuir fazendo com que este repositório possa servir como fonte de estudo e consulta a muitos desenvolvedores que, assim como eu, realizaram o Bootcamp, ou mesmo aqueles que não o fizeram, mas que gostariam de estudar com desafios propostos. :smiley::coffee:
+Lista de exercícios resolvidos no Bootcamp LocalizaLabs .NET Developer, oferecido pela plataforma Digital Innovation One. Espero contribuir fazendo com que este repositório possa servir como fonte de estudo e consulta a muitos desenvolvedores que, 
+assim como eu, realizaram o Bootcamp, ou mesmo aqueles que não o fizeram, mas que gostariam de estudar com desafios propostos. :smiley::coffee:
 
 ---
 
 ## :pencil: Pré-requisitos
 
-1. Construído com .NET 5.0 e, alguns desafios, com .NET 6.0 e codificado em C#. Se você não possui o dotnet instalado, acesse [aqui](https://dotnet.microsoft.com/) e instale a versão mais recente.
+1. Construído com .NET 5.0 e codificado em C#. Se você não possui o dotnet instalado, acesse [aqui](https://dotnet.microsoft.com/) e instale a versão mais recente.
 2. Clone este repositório em sua máquina local
 
    ```sh
@@ -60,102 +61,30 @@ Lista de exercícios resolvidos no Bootcamp LocalizaLabs .NET Developer, ofereci
     <li><a href="#desafio07">Bazinga!</a></li>
     <li><a href="#desafio08">Tempo de um Evento</a></li>
     <li><a href="#desafio09">Comunicação em Piralândia</a></li>
-    <li><a href="#desafio10">Criando um APP simples de cadastro de séries em .NET</a></li>
-    <li><a href="#desafio11">Introdução à orquestração de conteiners com Docker</a></li>
-    <li><a href="#desafio12">Desenvolvimento de Aplicações com .NET</a></li>
-    <li><a href="#desafio13">Projeto .NET de Crowdfunding</a></li>
-    <li><a href="#desafio14">Coordenadas de um Ponto</a></li>
-    <li><a href="#desafio15">Compras no Supermercado</a></li>
-    <li><a href="#desafio16">Pink e Cérebro</a></li>
-    <li><a href="#desafio17">Configuração da arquitetura back-end com .NET Core</a></li>
-    <li><a href="#desafio18">Construindo um projeto de uma API.NET integrada ao MongoDB</a></li>
-    <li><a href="#desafio19">Desafio 19</a></li>
-    <li><a href="#desafio20">Desafio 20</a></li>
-    <li><a href="#desafio21">Desafio 21</a></li>
-    <li><a href="#desafio22">Desafio 22</a></li>
-    <li><a href="#desafio23">Desafio 23</a></li>
-    <li><a href="#desafio24">Desafio 24</a></li>
-    <li><a href="#desafio25">Desafio 25</a></li>
-    <li><a href="#desafio26">Desafio 26</a></li>
-    <li><a href="#desafio27">Desafio 27</a></li>
-    <li><a href="#desafio28">Desafio 28</a></li>
+    <li><a href="#desafio10">Ho Ho Ho</a></li>
+    <li><a href="#desafio11">Dividindo X por Y</a></li>
+    <li><a href="#desafio12">Esfera</a></li>
+    <li><a href="#desafio13">Xenlonguinho</a></li>
+    <li><a href="#desafio14">Pedro Bento e o Mundo de OZ</a></li>
+    <li><a href="#desafio15">Criando um APP simples de cadastro de séries em .NET</a></li>
+    <li><a href="#desafio16">Introdução à orquestração de conteiners com Docker</a></li>
+    <li><a href="#desafio17">Desenvolvimento de Aplicações com .NET</a></li>
+    <li><a href="#desafio18">Implementando sua stack de testes de unidade e integrados em um projeto .NET de Crowdfunding</a></li>
+    <li><a href="#desafio19">Coordenadas de um Ponto</a></li>
+    <li><a href="#desafio20">Compras no Supermercado</a></li>
+    <li><a href="#desafio21">Pink e Cérebro</a></li>
+    <li><a href="#desafio22">Configuração da arquitetura back-end com .NET Core</a></li>
+    <li><a href="#desafio23">Construindo um projeto de uma API.NET integrada ao MongoDB</a></li>
   </ul>
 </details>
 
 ---
 
-
-## :clipboard: Etapas e Exercícios
-
-Soluções de Problemas em C# | Linguagem
------------- | -------------
-[Consumo Médio do Automóvel](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/#consumo-m%C3%A9dio-do-autom%C3%B3vel) | C#
-[DDD](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/#ddd) | C#
-[Aumento de Salário](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/#aumento-de-salário) | C#
-
-Criando uma Aplicação de Transferências Bancárias com .NET | Linguagem
------------- | -------------
-[Transferência Bancária](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/#transferência-bancária) | C#
-
-Desafios Aritméticos em C# | Linguagem
------------- | -------------
-[Média](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/#média) | C#
-[Crescimento Populacional](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/#crescimento-populacional) | C#
-[Bazinga!](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/#bazinga) | C#
-[Tempo de um Evento](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/#tempo-de-um-evento) | C#
-[Comunicação em Piralândia](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/#comunicação-em-piralândia) | C#
-
-Criando um APP simples de cadastro de séries em .NET | Linguagem
------------- | -------------
-[Cadastro de Séries](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/#cadastro-de-séries) | C#
-
-Introdução à orquestração de conteiners com Docker | Linguagem
------------- | -------------
-[Docker](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/#docker) | C#
-
-Desenvolvimento de Aplicações com .NET | Linguagem
------------- | -------------
-[CursoMVC - CursoAPI](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/#cursomvc---cursoapi) | C#
-
-Projeto .NET de Crowdfunding | Linguagem
------------- | -------------
-[Crowdfunding](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/#crowdfunding) | C#
-
-Praticando Programação em C# | Linguagem
------------- | -------------
-[Coordenadas de um Ponto](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/#coordenadas-de-um-ponto) | C#
-[Compras no Supermercado](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/#compras-no-supermercado) | C#
-[Pink e Cérebro](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/#pink-e-cérebro) | C#
-
-Configuração da arquitetura back-end com .NET Core | Linguagem
------------- | -------------
-[API .NET Core](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/#api-net-core) | C#
-
-Construindo um projeto de uma API.NET integrada ao MongoDB | Linguagem
------------- | -------------
-[API MongoDB](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/#api-mongodb) | C#
-
----
-
-### :dart: Objetivo
-
-Tenho como objetivo implementar as atividades propostas pelo Bootcamp LocalizaLabs .NET Developer. São exercícios de programação focados em C# e dotnet.
-
-### Clone
-
-Clone este repositório em sua máquina local usando:
-
-```
-git clone https://github.com/YuriSiman/bootcamp-localizalabs-dotnet.git
-```
-
----
-
 ## :rocket: Vamos Começar 
 
-### Soluções de Problemas em C#
+<div id="desafio01"></div>
 
-## Consumo Médio do Automóvel 
+### Consumo Médio do Automóvel 
 
 **Desafio**  
 Você deve calcular o consumo médio de um automóvel onde será informada a distância total percorrida (em Km) e o total de combustível consumido (em litros).  
@@ -172,13 +101,13 @@ Distância: 500 - Combustível Gasto: 35,0 | 14,286 km/l
 Distância: 2254 - Combustível Gasto: 124,4 | 18,119 km/l
 Distância: 4554 - Combustível Gasto: 464,6 | 9,802 km/l
 
-
-[Visualizar Código](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/blob/master/src/1%20-%20Solu%C3%A7%C3%A3o%20de%20Problemas%20em%20CSharp/Consumo%20M%C3%A9dio%20do%20Autom%C3%B3vel/Program.cs)  
-[Voltar ao Início](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet#bootcamp-localizalabs-net-developer)  
+<p align="right"><a href="#top">Início ↑</a></p>
 
 ---
 
-## DDD
+<div id="desafio02"></div>
+
+### DDD
 
 **Desafio**  
 Leia um número inteiro que representa um código de DDD para discagem interurbana. Em seguida, informe à qual cidade o DDD pertence, considerando a tabela abaixo:  
@@ -206,12 +135,13 @@ Exemplo de Entrada | Exemplo de Saída
 ------------ | -------------
 11 | São Paulo
 
-[Visualizar Código](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/blob/master/src/1%20-%20Solu%C3%A7%C3%A3o%20de%20Problemas%20em%20CSharp/DDD/Program.cs)  
-[Voltar ao Início](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet#bootcamp-localizalabs-net-developer)  
+<p align="right"><a href="#top">Início ↑</a></p>
 
 ---
 
-## Aumento de Salário
+<div id="desafio03"></div>
+
+### Aumento de Salário
 
 **Desafio**  
 A empresa ABC resolveu conceder um aumento de salários a seus funcionários de acordo com a tabela abaixo:  
@@ -238,29 +168,25 @@ Exemplo de Entrada | Exemplo de Saída
 800.01 | Novo salario: 880.01 - Reajuste ganho: 80.00 - Em percentual: 10 %
 2000.00 | Novo salario: 2140.00 - Reajuste ganho: 140.00 - Em percentual: 7 %
 
-
-[Visualizar Código](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/blob/master/src/1%20-%20Solu%C3%A7%C3%A3o%20de%20Problemas%20em%20CSharp/Aumento%20de%20Sal%C3%A1rio/Program.cs)  
-[Voltar ao Início](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet#bootcamp-localizalabs-net-developer)  
+<p align="right"><a href="#top">Início ↑</a></p>
 
 ---
 
-### Criando uma Aplicação de Transferências Bancárias com .NET
+<div id="desafio04"></div>
 
-## Transferência Bancária
+### Criando uma Aplicação de Transferências Bancárias com .NET
 
 **Desafio**  
 Criando uma aplicação de transferência bancária com .NET e C#.  
 Aprenda como criar um algoritmo simples de transferência bancária para exercer o pensamento orientado a objetos, o principal paradigma de programação utilizado no mercado. Nesse projeto você vai aprender: Como pensar orientado a objetos, como modelar o seu domínio, como utilizar enums.
 
-
-[Visualizar Código](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/tree/master/src/2%20-%20Criando%20uma%20Aplica%C3%A7%C3%A3o%20de%20Transfer%C3%AAncias%20Banc%C3%A1rias%20com%20.NET/Transfer%C3%AAncias%20Banc%C3%A1rias)  
-[Voltar ao Início](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet#bootcamp-localizalabs-net-developer)  
+<p align="right"><a href="#top">Início ↑</a></p>
 
 ---
 
-### Desafios Aritméticos em C#
+<div id="desafio05"></div>
 
-## Média
+### Média
 
 **Desafio**  
 Leia 2 valores de ponto flutuante de dupla precisão A e B, que correspondem a 2 notas de um aluno. A seguir, calcule a média do aluno, sabendo que a nota A tem peso 3.5 e a nota B tem peso 7.5 (A soma dos pesos portanto é 11). Assuma que cada nota pode ir de 0 até 10.0, sempre com uma casa decimal.  
@@ -277,12 +203,13 @@ Exemplo de Entrada | Exemplo de Saída
 0.0 - 7.1 | MEDIA = 4.84091
 10.0 - 10.0 | MEDIA = 10.00000
 
-[Visualizar Código](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/blob/master/src/3%20-%20Desafios%20Aritm%C3%A9ticos%20em%20CSharp/M%C3%A9dia/Program.cs)  
-[Voltar ao Início](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet#bootcamp-localizalabs-net-developer)  
+<p align="right"><a href="#top">Início ↑</a></p>
 
 ---
 
-## Crescimento Populacional
+<div id="desafio06"></div>
+
+### Crescimento Populacional
 
 **Desafio**  
 O Governador do Estado quer saber sobre as taxas de crescimento das cidades. De acordo com dados da população e a taxa de crescimento de duas cidades quaisquer (A e B), ele quer que você calcule quantos anos levará para que a cidade menor (A) cresça mais em população que a cidade maior (B).
@@ -311,12 +238,13 @@ Exemplo de Entrada | Exemplo de Saída
 100000 110000 1.5 0.5 | 10 anos.
 62422 484317 3.1 1.0 | 100 anos.
 
-[Visualizar Código](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/blob/master/src/3%20-%20Desafios%20Aritm%C3%A9ticos%20em%20CSharp/Crescimento%20Populacional/Program.cs)  
-[Voltar ao Início](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet#bootcamp-localizalabs-net-developer)  
+<p align="right"><a href="#top">Início ↑</a></p>
 
 ---
 
-## Bazinga!
+<div id="desafio07"></div>
+
+### Bazinga!
 
 **Desafio**  
 Em um episódio da aclamada série The Big Ban Theor dois pernagens, Sheldon e Raj, discutem qual dos dois é o melhor: o filme Saturn 3 ou a série Deep Space 9. A sugestão de Raj para a resolução do impasse é uma disputa de Pedra-Papel-Tesoura. Contudo, Sheldon argumenta que, se as partes envolvidas se conhecem, entre 75% e 80% das disputas de Pedra-Papel-Tesoura terminam empatadas, e então sugere o Pedra-Papel-Tesoura-Lagarto-Spock.
@@ -349,12 +277,13 @@ papel pedra | Caso #1: Bazinga!
 lagarto tesoura | Caso #2: Raj trapaceou!
 Spock Spock | Caso #3: De novo!
 
-[Visualizar Código](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/blob/master/src/3%20-%20Desafios%20Aritm%C3%A9ticos%20em%20CSharp/Bazinga!/Program.cs)  
-[Voltar ao Início](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet#bootcamp-localizalabs-net-developer)  
+<p align="right"><a href="#top">Início ↑</a></p>
 
 ---
 
-## Tempo de um Evento
+<div id="desafio08"></div>
+
+### Tempo de um Evento
 
 **Desafio**  
 
@@ -382,12 +311,13 @@ Dia 5 | 3 dia(s)
 Dia 9 | 1 minuto(s)
 06 : 13 : 23 | 0 segundo(s)
 
-[Visualizar Código](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/blob/master/src/3%20-%20Desafios%20Aritm%C3%A9ticos%20em%20CSharp/Tempo%20de%20um%20Evento/Program.cs)  
-[Voltar ao Início](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet#bootcamp-localizalabs-net-developer)  
+<p align="right"><a href="#top">Início ↑</a></p>
 
 ---
 
-## Comunicação em Piralândia
+<div id="desafio09"></div>
+
+### Comunicação em Piralândia
 
 **Desafio**  
 Os cientistas brasileiros descobriram um exoplaneta a 1 bilhão de anos luz da terra. Ele foi carinhosamente batizado de Piralândia, uma homenagem a cidade de Piracicaba, onde moram os cientistas. Após algum tempo observando esse planeta, os cientistas puderam ver que nele haviam habitantes e, além disso, esses habitantes estavam tentando fazer contato com os cientistas através de uma comunicação numérica. 
@@ -407,38 +337,168 @@ Exemplo de Entrada | Exemplo de Saída
 1234 | 4321
 9876543210 | 0123456789
 
-[Visualizar Código](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/blob/master/src/3%20-%20Desafios%20Aritm%C3%A9ticos%20em%20CSharp/Comunica%C3%A7%C3%A3o%20em%20Piral%C3%A2ndia/Program.cs)  
-[Voltar ao Início](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet#bootcamp-localizalabs-net-developer)  
+<p align="right"><a href="#top">Início ↑</a></p>
 
 ---
 
-### Criando um APP simples de cadastro de séries em .NET
+<div id="desafio10"></div>
 
-## Cadastro de Séries
+### Ho Ho Ho
+
+**Desafio**  
+Papai Noel está brincando com seus duendes para entretê-los durante a véspera do Natal. A brincadeira consiste nos elfos escreverem números em pedaços de papel e colocarem no gorro do Papai Noel. Após todos 
+terminarem de colocar os números Noel sorteia um papel e aquele número representa quantos "Ho" o Noel deve falar.
+
+Seu trabalho é ajudar o Papai Noel montando um problema que mostre todos os "Ho" que ele deve falar dado o número sorteado.
+
+**Entrada**  
+A entrada é composta por um único inteiro N (0 < N ≤ 106) representando quantos "Ho" serão falados por Noel.
+
+**Saída**  
+A saída é composta por todos "Ho" que Papai Noel deve falar separados por um espaço. Após o último "Ho" deve ser apresentado um "!" encerrando o programa.
+
+Exemplo de Entrada | Exemplo de Saída
+------------ | -------------
+5 | Ho Ho Ho Ho Ho!
+
+<p align="right"><a href="#top">Início ↑</a></p>
+
+---
+
+<div id="desafio11"></div>
+
+### Dividindo X por Y
+
+**Desafio**  
+Você terá o desafio de escrever um algoritmo que leia 2 números e imprima o resultado da divisão do primeiro pelo segundo. Caso não for possível, mostre a mensagem “divisao impossivel” para os valores em questão.
+
+**Entrada**  
+A entrada contém um número inteiro N. Este N será a quantidade de pares de valores inteiros (X e Y) que serão lidos em seguida.
+
+**Saída**  
+Para cada caso mostre o resultado da divisão com um dígito após o ponto decimal, ou “divisao impossivel” caso não seja possível efetuar o cálculo.
+
+Exemplo de Entrada | Exemplo de Saída
+------------ | -------------
+3 | -1.5
+3 -2 | divisao impossivel
+-8 0 | 0.0
+0 8 | 
+
+<p align="right"><a href="#top">Início ↑</a></p>
+
+---
+
+<div id="desafio12"></div>
+
+### Esfera
+
+**Desafio**  
+Faça um programa que calcule e mostre o volume de uma esfera sendo fornecido o valor de seu raio (R). A fórmula para calcular o volume é: (4/3) * pi * R3. Considere (atribua) para pi o valor 3.14159.
+
+Dica: Ao utilizar a fórmula, procure usar (4/3.0) ou (4.0/3), pois algumas linguagens (dentre elas o C++), assumem que o resultado da divisão entre dois inteiros é outro inteiro.
+
+**Entrada**  
+O arquivo de entrada contém um valor de ponto flutuante (dupla precisão), correspondente ao raio da esfera.
+
+**Saída**  
+A saída deverá ser uma mensagem "VOLUME" conforme o exemplo fornecido abaixo, com um espaço antes e um espaço depois da igualdade. O valor deverá ser apresentado com 3 casas após o ponto.
+
+Exemplo de Entrada | Exemplo de Saída
+------------ | -------------
+3 | VOLUME = 113.097
+15 | VOLUME = 14137.155
+1523 | VOLUME = 14797486501.627
+
+<p align="right"><a href="#top">Início ↑</a></p>
+
+---
+
+<div id="desafio13"></div>
+
+### Xenlonguinho
+
+**Desafio**  
+Kogu está buscando as esferas do dragão para invocar Xenlonguinho e pedir para ele reviver seu amigo Kuriri, que infelizmente morreu na última batalha dos guerreiros Zê.
+
+Porém Kogu está tendo muita dificuldade para encontrar as esferas, por isso Xenlonguinho que é seu conhecido há muito tempo, decidiu abrir uma exceção e aceitou ser invocado caso Kogu encontre todas as esferas cujo o número de 
+divisores da quantidade de estrelas da esfera sejam par.
+
+Por exemplo se existem sete esferas, Kogu não precisaria encontrar as esferas de uma e quatro estrelas, pois elas tem uma quantidade ímpar de divisores, então ele só precisa pegar 5 esferas para invocar Xenlonguinho.
+
+<img src="./readme-images/xenlonguinho.png" />
+
+Como Kogu não é muito bom em contas, ele pediu para você escrever um programa que dado o total de esferas existentes, mostre a quantidade mínima de esferas que ele precisa procurar.
+
+**Entrada**  
+A primeira linha consiste de um inteiro C que representa a quantidade de casos de teste. As linhas subsequentes contém um inteiro N (2 ≤ N ≤ 1000) que representa a quantidade de esferas necessárias para invocar Xenlonguinho.
+
+**Saída**  
+Seu programa deve exibir a quantidade mínima de esferas que Kogu tem que procurar.
+
+Exemplo de Entrada | Exemplo de Saída
+------------ | -------------
+1 | 5
+7 | 
+
+<p align="right"><a href="#top">Início ↑</a></p>
+
+---
+
+<div id="desafio14"></div>
+
+### Pedro Bento e o Mundo de OZ
+
+**Desafio**  
+No jogo, O Mundo de Oz, Pedro Bento é o líder do Tribunal, por causa disso ele é uma das pessoas mais importantes do mundo, no jogo. Além disso, Pedro Bento possui um grande tesouro, o qual possui diversos tipos de jóias.
+
+Pedro Bento está muito curioso para saber quantos tipos de jóias diferentes seu tesouro possui.
+
+Sabendo que você é o melhor programador do mundo, Pedro Bento te contratou para verificar quantos tipos de jóias distintas ele tem em seu tesouro.
+
+**Entrada**  
+A entrada consiste de várias linhas e cada uma contém uma string que descreve uma das jóias de Pedro Bento. Essa string é composta apenas dos caracteres '(' e ')', a soma do tamanho de todas as string não excede 106.
+
+**Saída**  
+Imprima quantos tipos de jóias distintas Pedro Bento possui.
+
+Exemplo de Entrada | Exemplo de Saída
+------------ | -------------
+(( | 3
+)) | 
+(( | 
+)) | 
+( | 
+
+<p align="right"><a href="#top">Início ↑</a></p>
+
+---
+
+<div id="desafio15"></div>
+
+### Criando um APP simples de cadastro de séries em .NET
 
 **Desafio**  
 Aprenda como criar um algoritmo simples de cadastro de séries para praticar seus conhecimentos de orientação a objetos, o principal paradigma de programação utilizada no mercado. Nesse projeto você vai aprender: Como pensar orientado a objetos, como modelar o seu domínio, como utilizar recursos de coleção.  
 
-[Visualizar Código](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/tree/master/src/4%20-%20Criando%20um%20APP%20simples%20de%20cadastro%20de%20s%C3%A9ries%20em%20.NET/Cadastro%20de%20S%C3%A9ries)  
-[Voltar ao Início](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet#bootcamp-localizalabs-net-developer)  
+<p align="right"><a href="#top">Início ↑</a></p>
 
 ---
 
-### Introdução à orquestração de conteiners com Docker
+<div id="desafio16"></div>
 
-## Docker
+### Introdução à orquestração de conteiners com Docker
 
 Implementação do último exercício proposto na etapa **Introdução à orquestração de conteiners com Docker** do Bootcamp LocalizaLabs .NET Developer.  
 
 Link para o repositório do exercício: [Docker](https://github.com/YuriSiman/bootcamp-localizalabs-docker)  
 
-[Voltar ao Início](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet#bootcamp-localizalabs-net-developer)  
-
+<p align="right"><a href="#top">Início ↑</a></p>
 ---
 
-### Desenvolvimento de Aplicações com .NET
+<div id="desafio17"></div>
 
-## CursoMVC - CursoAPI
+### Desenvolvimento de Aplicações com .NET
 
 Aprenda sobre o Entity Framework, como criar aplicativos web ASP.NET API e ASP.NET MVC. Você também vai criar testes na aplicação e um projeto com Unit Tests.  
 
@@ -460,26 +520,25 @@ O passo a passo da arquitetura utilizada neste projeto pode ser conferido neste 
 
 <img src="./readme-images/swagger.png" />
 
-[Visualizar Código](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/tree/master/src/5%20-%20Desenvolvimento%20de%20Aplica%C3%A7%C3%B5es%20com%20.NET)  
-[Voltar ao Início](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet#bootcamp-localizalabs-net-developer)  
+<p align="right"><a href="#top">Início ↑</a></p>
 
 ---
 
-### Implementando sua stack de testes de unidade e integrados em um projeto .NET de Crowdfunding
+<div id="desafio18"></div>
 
-## Crowdfunding
+### Implementando sua stack de testes de unidade e integrados em um projeto .NET de Crowdfunding
 
 Que se sentir mais seguro nas entregas de suas aplicações? Aprenda a testar um projeto de crowdfunding (vaquinha online) desenvolvida em .NET Core com a arquitetura MVC. Você irá baixar uma aplicação completa feita por expert e sua missão será implementar a parte de testes desta aplicação. Veja na teoria e na prática os principais conceitos de testes para aumentar a qualidade de entrega de seus projetos com testes de unidade, integrados e TDD.   
 
 Link para o repositório do exercício: [Crowdfunding](https://github.com/YuriSiman/dotnet-vaquinha-tests)  
 
-[Voltar ao Início](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet#bootcamp-localizalabs-net-developer)  
+<p align="right"><a href="#top">Início ↑</a></p>
 
 ---
 
-### Praticando Programação em C#  
+<div id="desafio19"></div>
 
-## Coordenadas de um Ponto  
+### Coordenadas de um Ponto  
 
 **Desafio**  
 Leia **2** valores com uma casa decimal (x e y), que devem representar as coordenadas de um ponto em um plano. A seguir, determine qual o quadrante ao qual pertence o ponto, ou se está sobre um dos eixos cartesianos ou na origem (x = y = 0).  
@@ -499,12 +558,13 @@ Exemplo de Entrada | Exemplo de Saída
 0.1 0.1 | Q1
 0.0 0.0 | Origem
 
-[Visualizar Código](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/blob/master/src/6%20-%20Praticando%20Programa%C3%A7%C3%A3o%20em%20CSharp/Coordenadas%20de%20um%20Ponto/Program.cs)  
-[Voltar ao Início](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet#bootcamp-localizalabs-net-developer)  
+<p align="right"><a href="#top">Início ↑</a></p>
 
 ---
 
-## Compras no Supermercado  
+<div id="desafio20"></div>
+
+### Compras no Supermercado  
 
 **Desafio**  
 Pedro trabalha sempre até tarde todos os dias, com isso tem pouco tempo tempo para as tarefas domésticas. Para economizar tempo ele faz a lista de compras do supermercado em um aplicativo e costuma anotar cada item na mesma hora que percebe a falta dele em casa.  
@@ -522,12 +582,13 @@ Exemplo de Entrada | Exemplo de Saída
 carne laranja suco picles laranja picles | carne laranja picles suco
 laranja pera laranja pera pera | laranja pera
 
-[Visualizar Código](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/blob/master/src/6%20-%20Praticando%20Programa%C3%A7%C3%A3o%20em%20CSharp/Compras%20no%20Supermercado/Program.cs)  
-[Voltar ao Início](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet#bootcamp-localizalabs-net-developer)  
+<p align="right"><a href="#top">Início ↑</a></p>
 
 ---
 
-## Pink e Cérebro  
+<div id="desafio21"></div>
+
+### Pink e Cérebro  
 
 **Desafio**  
 Pink e Cérebro dividem um apartamento e estão juntos 24h por dia desde o começo da pandemia. Para passar o temp, Pink cria problemas matemáticos para Cérebro resolver, o último deles foi uma lista de números com a seguinte pergunta: quantos números da lista são múltiplos de **2, 3, 4 e 5**?  
@@ -544,14 +605,15 @@ Exemplo de Entrada | Exemplo de Saída
 5 |
 2 5 4 20 10 | 4 Multiplo(s) de 2 - 0 Multiplo(s) de 3 - 2 Multiplo(s) de 4 - 3 Multiplo(s) de 5
 
-[Visualizar Código](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/blob/master/src/6%20-%20Praticando%20Programa%C3%A7%C3%A3o%20em%20CSharp/Pink%20e%20C%C3%A9rebro/Program.cs)  
-[Voltar ao Início](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet#bootcamp-localizalabs-net-developer)  
+<p align="right"><a href="#top">Início ↑</a></p>
 
 ---
 
+<div id="desafio22"></div>
+
 ### Configuração da arquitetura back-end com .NET Core
 
-## API .NET Core
+#### API .NET Core
 
 Aprenda de forma 100% prática a desenvolver um projeto com .NET Core usando RESTful API's e outras funções que otimizam o trabalho com a tecnologia. Neste projeto, tenho como objetivo implementar uma arquitetura back-end de uma API em ASP.NET Core, organizando os componentes da aplicação, documentando a API e aplicar Design Pattern na aplicação.  
 
@@ -567,14 +629,15 @@ Nossa aplicação poderá ser utilizada por aplicações Web Front-end e também
 
 <img src="./readme-images/curso-api-backend-swagger.png" />
 
-[Visualizar Código](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/tree/master/src/7%20-%20Configura%C3%A7%C3%A3o%20de%20Arquitetura%20Back-End%20com%20.NET%20Core/Curso.Api)  
-[Voltar ao Início](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet#bootcamp-localizalabs-net-developer)  
+<p align="right"><a href="#top">Início ↑</a></p>
 
 ---
 
+<div id="desafio23"></div>
+
 ### Construindo um projeto de uma API.NET integrada ao MongoDB
 
-## API MongoDB
+#### API MongoDB
 
 Construiremos um projeto de uma API em .NET Core integrada a um cluster MongoDB, que será criado no service cloud Mongo Atlas. O projeto consiste em uma API que cadastra, altera, deleta e retorna pessoas infectadas pelo coronavirus. **As informações do projeto são fictícias, apenas para fins didáticos**.  
 
@@ -609,20 +672,19 @@ Implementei pequenas modificações no projeto que não foram implementadas nas 
 
 <img src="./readme-images/dashboards.png" />
 
-[Visualizar Código](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/tree/master/src/8%20-%20Construindo%20um%20projeto%20de%20uma%20API.NET%20integrada%20ao%20MongoDB/API.MongoDB)  
-[Voltar ao Início](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet#bootcamp-localizalabs-net-developer)  
+<p align="right"><a href="#top">Início ↑</a></p>
 
 ---
 
 ## :vertical_traffic_light: Status do Projeto
 
-:heavy_check_mark: Bootcamp Finalizado!  
+:heavy_check_mark: Bootcamps 1 e 2 Finalizados!  
 
 ---
 
 ## :thinking: Contribuindo
 
-> Para começar...
+> Passo a passo de como contribuir...
 
 ### Passo 1
 
@@ -661,15 +723,16 @@ Depois que seu pull request for mesclado, você pode excluir sua feature branch
 * Me chame pelo [Linkedin](https://www.linkedin.com/in/yurisiman/)  
 * Me mande um e-mail [contato@yurisiman.com.br](mailto:contato@yurisiman.com.br)  
 
-[![Github](https://img.shields.io/badge/github-profile-%237159c1?style=for-the-badge&logo=github)](https://github.com/YuriSiman)  
-[![Curriculum](https://img.shields.io/badge/site-curriculum-%23563D7C?style=for-the-badge&logo=bootstrap)](https://yurisiman.com.br)  
-
 ---
 
 ## :pencil: Licença
 
-[![License](https://img.shields.io/badge/license-mit-%23A6CE39?style=for-the-badge&logo=github)](https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/blob/master/LICENSE)   
+<a href="https://github.com/YuriSiman/bootcamp-localizalabs-dotnet/blob/master/LICENSE" target="_blank">
+  <img alt="LICENSE" src="https://img.shields.io/badge/license-mit-%23A6CE39?style=for-the-badge&logo=github" />
+</a>
 
----
+##
 
-Code your life...
+Code your life :octocat:
+
+<p align="right"><a href="#top">Início ↑</a></p>
